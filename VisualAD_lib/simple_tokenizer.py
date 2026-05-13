@@ -3,8 +3,17 @@ import html
 import os
 from functools import lru_cache
 
-import ftfy
-import regex as re
+try:
+    import regex as re
+    _HAS_REGEX = True
+except ImportError:
+    import re
+    _HAS_REGEX = False
+
+try:
+    import ftfy
+except ImportError:
+    ftfy = None
 
 
 @lru_cache()
@@ -48,7 +57,8 @@ def get_pairs(word):
 
 
 def basic_clean(text):
-    text = ftfy.fix_text(text)
+    if ftfy is not None:
+        text = ftfy.fix_text(text)
     text = html.unescape(html.unescape(text))
     return text.strip()
 
@@ -75,7 +85,11 @@ class SimpleTokenizer(object):
         self.decoder = {v: k for k, v in self.encoder.items()}
         self.bpe_ranks = dict(zip(merges, range(len(merges))))
         self.cache = {'<|startoftext|>': '<|startoftext|>', '<|endoftext|>': '<|endoftext|>'}
-        self.pat = re.compile(r"""<\|startoftext\|>|<\|endoftext\|>|'s|'t|'re|'ve|'m|'ll|'d|[\p{L}]+|[\p{N}]|[^\s\p{L}\p{N}]+""", re.IGNORECASE)
+        if _HAS_REGEX:
+            pattern = r"""<\|startoftext\|>|<\|endoftext\|>|'s|'t|'re|'ve|'m|'ll|'d|[\p{L}]+|[\p{N}]|[^\s\p{L}\p{N}]+"""
+        else:
+            pattern = r"""<\|startoftext\|>|<\|endoftext\|>|'s|'t|'re|'ve|'m|'ll|'d|[A-Za-z]+|[0-9]|[^\sA-Za-z0-9]+"""
+        self.pat = re.compile(pattern, re.IGNORECASE)
 
     def bpe(self, token):
         if token in self.cache:

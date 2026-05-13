@@ -4,12 +4,12 @@ Analysis utilities for anomaly detection evaluation and statistics
 import os
 import numpy as np
 import torch
-from .visualization import generate_overall_analysis_chart, generate_class_wise_analysis_charts
 from .scoring import reduce_anomaly_map, DEFAULT_TOPK_RATIO
 
 
 def get_classification_from_segmentation(all_anomaly_maps, all_cls_names, results=None,
-                                        normalized_cls_scores=None, weight=0.0):
+                                        normalized_cls_scores=None, weight=0.0,
+                                        normalize_maps=True):
     """
     Complete process to get classification results from segmentation results
     Args:
@@ -30,8 +30,10 @@ def get_classification_from_segmentation(all_anomaly_maps, all_cls_names, result
     classification_scores = compute_and_fuse_scores(all_anomaly_maps, normalized_cls_scores, weight)
 
     # Step 2: Normalize anomaly maps (for visualization only)
-    print(f"\n📊 Normalizing anomaly maps (for visualization)...")
-    normalized_anomaly_maps = normalize_anomaly_maps_per_image(all_anomaly_maps)
+    normalized_anomaly_maps = None
+    if normalize_maps:
+        print(f"\n📊 Normalizing anomaly maps (for visualization)...")
+        normalized_anomaly_maps = normalize_anomaly_maps_per_image(all_anomaly_maps)
 
     # Step 3: Update probability values in results (if results provided)
     if results is not None:
@@ -132,6 +134,7 @@ def analyze_classification_distribution(classification_scores, cls_names, anomal
         save_dir: Save directory
     """
     os.makedirs(save_dir, exist_ok=True)
+    from .visualization import generate_overall_analysis_chart, generate_class_wise_analysis_charts
 
     # Convert to numpy arrays
     scores = np.array(classification_scores)

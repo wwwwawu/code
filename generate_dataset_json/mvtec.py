@@ -1,5 +1,6 @@
 import os
 import json
+import argparse
 
 
 class MVTecSolver(object):
@@ -9,9 +10,9 @@ class MVTecSolver(object):
         'tile', 'toothbrush', 'transistor', 'wood', 'zipper',
     ]
 
-    def __init__(self, root='data/mvtec'):
+    def __init__(self, root='data/mvtec', meta_path=None):
         self.root = root
-        self.meta_path = f'{root}/meta.json'
+        self.meta_path = meta_path or f'{root}/meta.json'
 
     def run(self):
         info = dict(train={}, test={})
@@ -47,5 +48,12 @@ class MVTecSolver(object):
             f.write(json.dumps(info, indent=4) + "\n")
         print('normal_samples', normal_samples, 'anomaly_samples', anomaly_samples)
 if __name__ == '__main__':
-    runner = MVTecSolver(root='/home/hyn/work/dataset/AD/mvtec')
+    parser = argparse.ArgumentParser("Generate VisualAD meta.json for MVTec-AD")
+    parser.add_argument("--root", type=str, default="/media/data/jjh/datasets/mvtec",
+                        help="path to the extracted MVTec-AD root directory")
+    parser.add_argument("--meta_path", type=str, default=None,
+                        help="optional output path for meta.json; defaults to ROOT/meta.json")
+    args = parser.parse_args()
+
+    runner = MVTecSolver(root=args.root, meta_path=args.meta_path)
     runner.run()

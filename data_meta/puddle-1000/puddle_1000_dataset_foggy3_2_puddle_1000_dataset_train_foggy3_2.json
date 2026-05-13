@@ -1,0 +1,5508 @@
+{
+  "test": {
+    "puddle": [
+      {
+        "img_path": "images/000000021.png",
+        "mask_path": "masks_bw/000000021.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000031.png",
+        "mask_path": "masks_bw/000000031.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000041.png",
+        "mask_path": "masks_bw/000000041.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000051.png",
+        "mask_path": "masks_bw/000000051.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000071.png",
+        "mask_path": "masks_bw/000000071.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000081.png",
+        "mask_path": "masks_bw/000000081.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000091.png",
+        "mask_path": "masks_bw/000000091.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000101.png",
+        "mask_path": "masks_bw/000000101.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000121.png",
+        "mask_path": "masks_bw/000000121.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000131.png",
+        "mask_path": "masks_bw/000000131.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000141.png",
+        "mask_path": "masks_bw/000000141.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000151.png",
+        "mask_path": "masks_bw/000000151.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000171.png",
+        "mask_path": "masks_bw/000000171.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000181.png",
+        "mask_path": "masks_bw/000000181.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000191.png",
+        "mask_path": "masks_bw/000000191.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000201.png",
+        "mask_path": "masks_bw/000000201.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000221.png",
+        "mask_path": "masks_bw/000000221.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000231.png",
+        "mask_path": "masks_bw/000000231.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000241.png",
+        "mask_path": "masks_bw/000000241.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000251.png",
+        "mask_path": "masks_bw/000000251.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000271.png",
+        "mask_path": "masks_bw/000000271.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000281.png",
+        "mask_path": "masks_bw/000000281.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000291.png",
+        "mask_path": "masks_bw/000000291.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000301.png",
+        "mask_path": "masks_bw/000000301.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000321.png",
+        "mask_path": "masks_bw/000000321.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000331.png",
+        "mask_path": "masks_bw/000000331.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000341.png",
+        "mask_path": "masks_bw/000000341.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000351.png",
+        "mask_path": "masks_bw/000000351.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000352.png",
+        "mask_path": "masks_bw/000000352.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000371.png",
+        "mask_path": "masks_bw/000000371.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000372.png",
+        "mask_path": "masks_bw/000000372.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000381.png",
+        "mask_path": "masks_bw/000000381.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000382.png",
+        "mask_path": "masks_bw/000000382.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000391.png",
+        "mask_path": "masks_bw/000000391.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000401.png",
+        "mask_path": "masks_bw/000000401.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000402.png",
+        "mask_path": "masks_bw/000000402.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000407.png",
+        "mask_path": "masks_bw/000000407.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000408.png",
+        "mask_path": "masks_bw/000000408.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000409.png",
+        "mask_path": "masks_bw/000000409.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000412.png",
+        "mask_path": "masks_bw/000000412.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000421.png",
+        "mask_path": "masks_bw/000000421.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000422.png",
+        "mask_path": "masks_bw/000000422.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000431.png",
+        "mask_path": "masks_bw/000000431.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000432.png",
+        "mask_path": "masks_bw/000000432.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000441.png",
+        "mask_path": "masks_bw/000000441.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000442.png",
+        "mask_path": "masks_bw/000000442.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000451.png",
+        "mask_path": "masks_bw/000000451.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000453.png",
+        "mask_path": "masks_bw/000000453.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000462.png",
+        "mask_path": "masks_bw/000000462.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000463.png",
+        "mask_path": "masks_bw/000000463.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000471.png",
+        "mask_path": "masks_bw/000000471.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000472.png",
+        "mask_path": "masks_bw/000000472.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000481.png",
+        "mask_path": "masks_bw/000000481.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000482.png",
+        "mask_path": "masks_bw/000000482.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000483.png",
+        "mask_path": "masks_bw/000000483.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000491.png",
+        "mask_path": "masks_bw/000000491.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000493.png",
+        "mask_path": "masks_bw/000000493.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000501.png",
+        "mask_path": "masks_bw/000000501.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000503.png",
+        "mask_path": "masks_bw/000000503.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000507.png",
+        "mask_path": "masks_bw/000000507.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000508.png",
+        "mask_path": "masks_bw/000000508.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000513.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000000521.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000000523.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000000531.png",
+        "mask_path": "masks_bw/000000531.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000541.png",
+        "mask_path": "masks_bw/000000541.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000543.png",
+        "mask_path": "masks_bw/000000543.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000551.png",
+        "mask_path": "masks_bw/000000551.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000571.png",
+        "mask_path": "masks_bw/000000571.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000581.png",
+        "mask_path": "masks_bw/000000581.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000582.png",
+        "mask_path": "masks_bw/000000582.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000591.png",
+        "mask_path": "masks_bw/000000591.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000592.png",
+        "mask_path": "masks_bw/000000592.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000601.png",
+        "mask_path": "masks_bw/000000601.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000602.png",
+        "mask_path": "masks_bw/000000602.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000608.png",
+        "mask_path": "masks_bw/000000608.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000610.png",
+        "mask_path": "masks_bw/000000610.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000612.png",
+        "mask_path": "masks_bw/000000612.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000621.png",
+        "mask_path": "masks_bw/000000621.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000622.png",
+        "mask_path": "masks_bw/000000622.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000631.png",
+        "mask_path": "masks_bw/000000631.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000641.png",
+        "mask_path": "masks_bw/000000641.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000642.png",
+        "mask_path": "masks_bw/000000642.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000651.png",
+        "mask_path": "masks_bw/000000651.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000652.png",
+        "mask_path": "masks_bw/000000652.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000662.png",
+        "mask_path": "masks_bw/000000662.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000671.png",
+        "mask_path": "masks_bw/000000671.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000672.png",
+        "mask_path": "masks_bw/000000672.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000681.png",
+        "mask_path": "masks_bw/000000681.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000691.png",
+        "mask_path": "masks_bw/000000691.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000692.png",
+        "mask_path": "masks_bw/000000692.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000701.png",
+        "mask_path": "masks_bw/000000701.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000702.png",
+        "mask_path": "masks_bw/000000702.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000708.png",
+        "mask_path": "masks_bw/000000708.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000709.png",
+        "mask_path": "masks_bw/000000709.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000712.png",
+        "mask_path": "masks_bw/000000712.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000721.png",
+        "mask_path": "masks_bw/000000721.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000722.png",
+        "mask_path": "masks_bw/000000722.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000731.png",
+        "mask_path": "masks_bw/000000731.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000732.png",
+        "mask_path": "masks_bw/000000732.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000741.png",
+        "mask_path": "masks_bw/000000741.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000742.png",
+        "mask_path": "masks_bw/000000742.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000751.png",
+        "mask_path": "masks_bw/000000751.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000752.png",
+        "mask_path": "masks_bw/000000752.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000753.png",
+        "mask_path": "masks_bw/000000753.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000762.png",
+        "mask_path": "masks_bw/000000762.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000763.png",
+        "mask_path": "masks_bw/000000763.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000771.png",
+        "mask_path": "masks_bw/000000771.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000773.png",
+        "mask_path": "masks_bw/000000773.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000781.png",
+        "mask_path": "masks_bw/000000781.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000782.png",
+        "mask_path": "masks_bw/000000782.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000783.png",
+        "mask_path": "masks_bw/000000783.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000791.png",
+        "mask_path": "masks_bw/000000791.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000792.png",
+        "mask_path": "masks_bw/000000792.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000801.png",
+        "mask_path": "masks_bw/000000801.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000802.png",
+        "mask_path": "masks_bw/000000802.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000803.png",
+        "mask_path": "masks_bw/000000803.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000804.png",
+        "mask_path": "masks_bw/000000804.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000808.png",
+        "mask_path": "masks_bw/000000808.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000810.png",
+        "mask_path": "masks_bw/000000810.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000812.png",
+        "mask_path": "masks_bw/000000812.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000813.png",
+        "mask_path": "masks_bw/000000813.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000821.png",
+        "mask_path": "masks_bw/000000821.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000822.png",
+        "mask_path": "masks_bw/000000822.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000831.png",
+        "mask_path": "masks_bw/000000831.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000832.png",
+        "mask_path": "masks_bw/000000832.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000833.png",
+        "mask_path": "masks_bw/000000833.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000841.png",
+        "mask_path": "masks_bw/000000841.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000842.png",
+        "mask_path": "masks_bw/000000842.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000843.png",
+        "mask_path": "masks_bw/000000843.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000851.png",
+        "mask_path": "masks_bw/000000851.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000853.png",
+        "mask_path": "masks_bw/000000853.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000862.png",
+        "mask_path": "masks_bw/000000862.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000863.png",
+        "mask_path": "masks_bw/000000863.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000871.png",
+        "mask_path": "masks_bw/000000871.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000872.png",
+        "mask_path": "masks_bw/000000872.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000881.png",
+        "mask_path": "masks_bw/000000881.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000882.png",
+        "mask_path": "masks_bw/000000882.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000883.png",
+        "mask_path": "masks_bw/000000883.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000891.png",
+        "mask_path": "masks_bw/000000891.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000892.png",
+        "mask_path": "masks_bw/000000892.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000893.png",
+        "mask_path": "masks_bw/000000893.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000901.png",
+        "mask_path": "masks_bw/000000901.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000903.png",
+        "mask_path": "masks_bw/000000903.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000904.png",
+        "mask_path": "masks_bw/000000904.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000907.png",
+        "mask_path": "masks_bw/000000907.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000908.png",
+        "mask_path": "masks_bw/000000908.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000910.png",
+        "mask_path": "masks_bw/000000910.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000912.png",
+        "mask_path": "masks_bw/000000912.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000913.png",
+        "mask_path": "masks_bw/000000913.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000921.png",
+        "mask_path": "masks_bw/000000921.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000922.png",
+        "mask_path": "masks_bw/000000922.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000933.png",
+        "mask_path": "masks_bw/000000933.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000941.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000000942.png",
+        "mask_path": "masks_bw/000000942.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000943.png",
+        "mask_path": "masks_bw/000000943.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000951.png",
+        "mask_path": "masks_bw/000000951.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000952.png",
+        "mask_path": "masks_bw/000000952.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000961.png",
+        "mask_path": "masks_bw/000000961.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000962.png",
+        "mask_path": "masks_bw/000000962.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000963.png",
+        "mask_path": "masks_bw/000000963.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000972.png",
+        "mask_path": "masks_bw/000000972.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000973.png",
+        "mask_path": "masks_bw/000000973.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000983.png",
+        "mask_path": "masks_bw/000000983.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000992.png",
+        "mask_path": "masks_bw/000000992.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000000993.png",
+        "mask_path": "masks_bw/000000993.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001001.png",
+        "mask_path": "masks_bw/000001001.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001002.png",
+        "mask_path": "masks_bw/000001002.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001004.png",
+        "mask_path": "masks_bw/000001004.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001007.png",
+        "mask_path": "masks_bw/000001007.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001008.png",
+        "mask_path": "masks_bw/000001008.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001009.png",
+        "mask_path": "masks_bw/000001009.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001011.png",
+        "mask_path": "masks_bw/000001011.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001012.png",
+        "mask_path": "masks_bw/000001012.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001013.png",
+        "mask_path": "masks_bw/000001013.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001021.png",
+        "mask_path": "masks_bw/000001021.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001022.png",
+        "mask_path": "masks_bw/000001022.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001023.png",
+        "mask_path": "masks_bw/000001023.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001031.png",
+        "mask_path": "masks_bw/000001031.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001033.png",
+        "mask_path": "masks_bw/000001033.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001042.png",
+        "mask_path": "masks_bw/000001042.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001043.png",
+        "mask_path": "masks_bw/000001043.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001051.png",
+        "mask_path": "masks_bw/000001051.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001052.png",
+        "mask_path": "masks_bw/000001052.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001061.png",
+        "mask_path": "masks_bw/000001061.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001062.png",
+        "mask_path": "masks_bw/000001062.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001063.png",
+        "mask_path": "masks_bw/000001063.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001071.png",
+        "mask_path": "masks_bw/000001071.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001072.png",
+        "mask_path": "masks_bw/000001072.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001073.png",
+        "mask_path": "masks_bw/000001073.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001081.png",
+        "mask_path": "masks_bw/000001081.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001083.png",
+        "mask_path": "masks_bw/000001083.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001092.png",
+        "mask_path": "masks_bw/000001092.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001093.png",
+        "mask_path": "masks_bw/000001093.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001102.png",
+        "mask_path": "masks_bw/000001102.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001107.png",
+        "mask_path": "masks_bw/000001107.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001108.png",
+        "mask_path": "masks_bw/000001108.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001109.png",
+        "mask_path": "masks_bw/000001109.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001110.png",
+        "mask_path": "masks_bw/000001110.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001113.png",
+        "mask_path": "masks_bw/000001113.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001121.png",
+        "mask_path": "masks_bw/000001121.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001122.png",
+        "mask_path": "masks_bw/000001122.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001123.png",
+        "mask_path": "masks_bw/000001123.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001131.png",
+        "mask_path": "masks_bw/000001131.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001132.png",
+        "mask_path": "masks_bw/000001132.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001141.png",
+        "mask_path": "masks_bw/000001141.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001151.png",
+        "mask_path": "masks_bw/000001151.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001152.png",
+        "mask_path": "masks_bw/000001152.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001162.png",
+        "mask_path": "masks_bw/000001162.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001171.png",
+        "mask_path": "masks_bw/000001171.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001172.png",
+        "mask_path": "masks_bw/000001172.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001181.png",
+        "mask_path": "masks_bw/000001181.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001182.png",
+        "mask_path": "masks_bw/000001182.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001202.png",
+        "mask_path": "masks_bw/000001202.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001203.png",
+        "mask_path": "masks_bw/000001203.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001204.png",
+        "mask_path": "masks_bw/000001204.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001207.png",
+        "mask_path": "masks_bw/000001207.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001210.png",
+        "mask_path": "masks_bw/000001210.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001212.png",
+        "mask_path": "masks_bw/000001212.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001222.png",
+        "mask_path": "masks_bw/000001222.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001232.png",
+        "mask_path": "masks_bw/000001232.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001241.png",
+        "mask_path": "masks_bw/000001241.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001251.png",
+        "mask_path": "masks_bw/000001251.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001252.png",
+        "mask_path": "masks_bw/000001252.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001262.png",
+        "mask_path": "masks_bw/000001262.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001271.png",
+        "mask_path": "masks_bw/000001271.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001272.png",
+        "mask_path": "masks_bw/000001272.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001281.png",
+        "mask_path": "masks_bw/000001281.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001282.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001291.png",
+        "mask_path": "masks_bw/000001291.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001301.png",
+        "mask_path": "masks_bw/000001301.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001302.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001308.png",
+        "mask_path": "masks_bw/000001308.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001309.png",
+        "mask_path": "masks_bw/000001309.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001310.png",
+        "mask_path": "masks_bw/000001310.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001321.png",
+        "mask_path": "masks_bw/000001321.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001322.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001331.png",
+        "mask_path": "masks_bw/000001331.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001332.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001341.png",
+        "mask_path": "masks_bw/000001341.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001342.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001351.png",
+        "mask_path": "masks_bw/000001351.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001352.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001371.png",
+        "mask_path": "masks_bw/000001371.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001381.png",
+        "mask_path": "masks_bw/000001381.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001391.png",
+        "mask_path": "masks_bw/000001391.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001401.png",
+        "mask_path": "masks_bw/000001401.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001421.png",
+        "mask_path": "masks_bw/000001421.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001431.png",
+        "mask_path": "masks_bw/000001431.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001441.png",
+        "mask_path": "masks_bw/000001441.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001451.png",
+        "mask_path": "masks_bw/000001451.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001471.png",
+        "mask_path": "masks_bw/000001471.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001481.png",
+        "mask_path": "masks_bw/000001481.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001491.png",
+        "mask_path": "masks_bw/000001491.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001501.png",
+        "mask_path": "masks_bw/000001501.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001508.png",
+        "mask_path": "masks_bw/000001508.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001521.png",
+        "mask_path": "masks_bw/000001521.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001531.png",
+        "mask_path": "masks_bw/000001531.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001561.png",
+        "mask_path": "masks_bw/000001561.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001591.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000001607.png",
+        "mask_path": "masks_bw/000001607.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001608.png",
+        "mask_path": "masks_bw/000001608.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001609.png",
+        "mask_path": "masks_bw/000001609.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001662.png",
+        "mask_path": "masks_bw/000001662.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001672.png",
+        "mask_path": "masks_bw/000001672.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001682.png",
+        "mask_path": "masks_bw/000001682.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001692.png",
+        "mask_path": "masks_bw/000001692.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001707.png",
+        "mask_path": "masks_bw/000001707.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001708.png",
+        "mask_path": "masks_bw/000001708.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001709.png",
+        "mask_path": "masks_bw/000001709.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001710.png",
+        "mask_path": "masks_bw/000001710.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001722.png",
+        "mask_path": "masks_bw/000001722.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001732.png",
+        "mask_path": "masks_bw/000001732.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001742.png",
+        "mask_path": "masks_bw/000001742.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001743.png",
+        "mask_path": "masks_bw/000001743.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001753.png",
+        "mask_path": "masks_bw/000001753.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001762.png",
+        "mask_path": "masks_bw/000001762.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001763.png",
+        "mask_path": "masks_bw/000001763.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001772.png",
+        "mask_path": "masks_bw/000001772.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001782.png",
+        "mask_path": "masks_bw/000001782.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001783.png",
+        "mask_path": "masks_bw/000001783.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001792.png",
+        "mask_path": "masks_bw/000001792.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001793.png",
+        "mask_path": "masks_bw/000001793.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001803.png",
+        "mask_path": "masks_bw/000001803.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001807.png",
+        "mask_path": "masks_bw/000001807.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001808.png",
+        "mask_path": "masks_bw/000001808.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001812.png",
+        "mask_path": "masks_bw/000001812.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001822.png",
+        "mask_path": "masks_bw/000001822.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001823.png",
+        "mask_path": "masks_bw/000001823.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001832.png",
+        "mask_path": "masks_bw/000001832.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001833.png",
+        "mask_path": "masks_bw/000001833.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001843.png",
+        "mask_path": "masks_bw/000001843.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001852.png",
+        "mask_path": "masks_bw/000001852.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001853.png",
+        "mask_path": "masks_bw/000001853.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001862.png",
+        "mask_path": "masks_bw/000001862.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001872.png",
+        "mask_path": "masks_bw/000001872.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001873.png",
+        "mask_path": "masks_bw/000001873.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001882.png",
+        "mask_path": "masks_bw/000001882.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001883.png",
+        "mask_path": "masks_bw/000001883.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001893.png",
+        "mask_path": "masks_bw/000001893.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001902.png",
+        "mask_path": "masks_bw/000001902.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001903.png",
+        "mask_path": "masks_bw/000001903.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001908.png",
+        "mask_path": "masks_bw/000001908.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001910.png",
+        "mask_path": "masks_bw/000001910.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001912.png",
+        "mask_path": "masks_bw/000001912.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001913.png",
+        "mask_path": "masks_bw/000001913.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001922.png",
+        "mask_path": "masks_bw/000001922.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001932.png",
+        "mask_path": "masks_bw/000001932.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001933.png",
+        "mask_path": "masks_bw/000001933.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001942.png",
+        "mask_path": "masks_bw/000001942.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001943.png",
+        "mask_path": "masks_bw/000001943.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001953.png",
+        "mask_path": "masks_bw/000001953.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001962.png",
+        "mask_path": "masks_bw/000001962.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001963.png",
+        "mask_path": "masks_bw/000001963.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001972.png",
+        "mask_path": "masks_bw/000001972.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001982.png",
+        "mask_path": "masks_bw/000001982.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001983.png",
+        "mask_path": "masks_bw/000001983.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001992.png",
+        "mask_path": "masks_bw/000001992.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000001993.png",
+        "mask_path": "masks_bw/000001993.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002003.png",
+        "mask_path": "masks_bw/000002003.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002007.png",
+        "mask_path": "masks_bw/000002007.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002008.png",
+        "mask_path": "masks_bw/000002008.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002009.png",
+        "mask_path": "masks_bw/000002009.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002012.png",
+        "mask_path": "masks_bw/000002012.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002013.png",
+        "mask_path": "masks_bw/000002013.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002022.png",
+        "mask_path": "masks_bw/000002022.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002023.png",
+        "mask_path": "masks_bw/000002023.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002033.png",
+        "mask_path": "masks_bw/000002033.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002042.png",
+        "mask_path": "masks_bw/000002042.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002043.png",
+        "mask_path": "masks_bw/000002043.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002052.png",
+        "mask_path": "masks_bw/000002052.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002061.png",
+        "mask_path": "masks_bw/000002061.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002062.png",
+        "mask_path": "masks_bw/000002062.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002063.png",
+        "mask_path": "masks_bw/000002063.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002071.png",
+        "mask_path": "masks_bw/000002071.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002072.png",
+        "mask_path": "masks_bw/000002072.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002073.png",
+        "mask_path": "masks_bw/000002073.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002081.png",
+        "mask_path": "masks_bw/000002081.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002083.png",
+        "mask_path": "masks_bw/000002083.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002091.png",
+        "mask_path": "masks_bw/000002091.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002092.png",
+        "mask_path": "masks_bw/000002092.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002093.png",
+        "mask_path": "masks_bw/000002093.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002102.png",
+        "mask_path": "masks_bw/000002102.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002107.png",
+        "mask_path": "masks_bw/000002107.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002108.png",
+        "mask_path": "masks_bw/000002108.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002109.png",
+        "mask_path": "masks_bw/000002109.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002110.png",
+        "mask_path": "masks_bw/000002110.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002111.png",
+        "mask_path": "masks_bw/000002111.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002113.png",
+        "mask_path": "masks_bw/000002113.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002121.png",
+        "mask_path": "masks_bw/000002121.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002122.png",
+        "mask_path": "masks_bw/000002122.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002123.png",
+        "mask_path": "masks_bw/000002123.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002131.png",
+        "mask_path": "masks_bw/000002131.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002132.png",
+        "mask_path": "masks_bw/000002132.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002141.png",
+        "mask_path": "masks_bw/000002141.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002142.png",
+        "mask_path": "masks_bw/000002142.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002143.png",
+        "mask_path": "masks_bw/000002143.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002152.png",
+        "mask_path": "masks_bw/000002152.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002153.png",
+        "mask_path": "masks_bw/000002153.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002161.png",
+        "mask_path": "masks_bw/000002161.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002163.png",
+        "mask_path": "masks_bw/000002163.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002171.png",
+        "mask_path": "masks_bw/000002171.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002172.png",
+        "mask_path": "masks_bw/000002172.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002173.png",
+        "mask_path": "masks_bw/000002173.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002181.png",
+        "mask_path": "masks_bw/000002181.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002182.png",
+        "mask_path": "masks_bw/000002182.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002191.png",
+        "mask_path": "masks_bw/000002191.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002192.png",
+        "mask_path": "masks_bw/000002192.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002193.png",
+        "mask_path": "masks_bw/000002193.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002202.png",
+        "mask_path": "masks_bw/000002202.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002203.png",
+        "mask_path": "masks_bw/000002203.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002208.png",
+        "mask_path": "masks_bw/000002208.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002211.png",
+        "mask_path": "masks_bw/000002211.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002212.png",
+        "mask_path": "masks_bw/000002212.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002213.png",
+        "mask_path": "masks_bw/000002213.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002221.png",
+        "mask_path": "masks_bw/000002221.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002222.png",
+        "mask_path": "masks_bw/000002222.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002231.png",
+        "mask_path": "masks_bw/000002231.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002232.png",
+        "mask_path": "masks_bw/000002232.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002233.png",
+        "mask_path": "masks_bw/000002233.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002241.png",
+        "mask_path": "masks_bw/000002241.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002242.png",
+        "mask_path": "masks_bw/000002242.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002243.png",
+        "mask_path": "masks_bw/000002243.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002253.png",
+        "mask_path": "masks_bw/000002253.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002261.png",
+        "mask_path": "masks_bw/000002261.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002262.png",
+        "mask_path": "masks_bw/000002262.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002263.png",
+        "mask_path": "masks_bw/000002263.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002271.png",
+        "mask_path": "masks_bw/000002271.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002272.png",
+        "mask_path": "masks_bw/000002272.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002282.png",
+        "mask_path": "masks_bw/000002282.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002283.png",
+        "mask_path": "masks_bw/000002283.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002292.png",
+        "mask_path": "masks_bw/000002292.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002293.png",
+        "mask_path": "masks_bw/000002293.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002303.png",
+        "mask_path": "masks_bw/000002303.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002307.png",
+        "mask_path": "masks_bw/000002307.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002308.png",
+        "mask_path": "masks_bw/000002308.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002481.png",
+        "mask_path": "masks_bw/000002481.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002491.png",
+        "mask_path": "masks_bw/000002491.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002507.png",
+        "mask_path": "masks_bw/000002507.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002509.png",
+        "mask_path": "masks_bw/000002509.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002510.png",
+        "mask_path": "masks_bw/000002510.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002511.png",
+        "mask_path": "masks_bw/000002511.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002512.png",
+        "mask_path": "masks_bw/000002512.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002521.png",
+        "mask_path": "masks_bw/000002521.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002522.png",
+        "mask_path": "masks_bw/000002522.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002531.png",
+        "mask_path": "masks_bw/000002531.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002533.png",
+        "mask_path": "masks_bw/000002533.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002541.png",
+        "mask_path": "masks_bw/000002541.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002542.png",
+        "mask_path": "masks_bw/000002542.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002543.png",
+        "mask_path": "masks_bw/000002543.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002552.png",
+        "mask_path": "masks_bw/000002552.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002561.png",
+        "mask_path": "masks_bw/000002561.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002562.png",
+        "mask_path": "masks_bw/000002562.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002563.png",
+        "mask_path": "masks_bw/000002563.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002571.png",
+        "mask_path": "masks_bw/000002571.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002572.png",
+        "mask_path": "masks_bw/000002572.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002573.png",
+        "mask_path": "masks_bw/000002573.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002581.png",
+        "mask_path": "masks_bw/000002581.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002583.png",
+        "mask_path": "masks_bw/000002583.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002591.png",
+        "mask_path": "masks_bw/000002591.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002592.png",
+        "mask_path": "masks_bw/000002592.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002593.png",
+        "mask_path": "masks_bw/000002593.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002602.png",
+        "mask_path": "masks_bw/000002602.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002607.png",
+        "mask_path": "masks_bw/000002607.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002608.png",
+        "mask_path": "masks_bw/000002608.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002609.png",
+        "mask_path": "masks_bw/000002609.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002610.png",
+        "mask_path": "masks_bw/000002610.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002611.png",
+        "mask_path": "masks_bw/000002611.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002613.png",
+        "mask_path": "masks_bw/000002613.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002622.png",
+        "mask_path": "masks_bw/000002622.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002623.png",
+        "mask_path": "masks_bw/000002623.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002632.png",
+        "mask_path": "masks_bw/000002632.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002642.png",
+        "mask_path": "masks_bw/000002642.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002643.png",
+        "mask_path": "masks_bw/000002643.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002652.png",
+        "mask_path": "masks_bw/000002652.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002653.png",
+        "mask_path": "masks_bw/000002653.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002663.png",
+        "mask_path": "masks_bw/000002663.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002672.png",
+        "mask_path": "masks_bw/000002672.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002673.png",
+        "mask_path": "masks_bw/000002673.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002682.png",
+        "mask_path": "masks_bw/000002682.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002692.png",
+        "mask_path": "masks_bw/000002692.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002693.png",
+        "mask_path": "masks_bw/000002693.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002702.png",
+        "mask_path": "masks_bw/000002702.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002703.png",
+        "mask_path": "masks_bw/000002703.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002708.png",
+        "mask_path": "masks_bw/000002708.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002709.png",
+        "mask_path": "masks_bw/000002709.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002710.png",
+        "mask_path": "masks_bw/000002710.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002712.png",
+        "mask_path": "masks_bw/000002712.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002722.png",
+        "mask_path": "masks_bw/000002722.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002723.png",
+        "mask_path": "masks_bw/000002723.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002732.png",
+        "mask_path": "masks_bw/000002732.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002733.png",
+        "mask_path": "masks_bw/000002733.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002743.png",
+        "mask_path": "masks_bw/000002743.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002752.png",
+        "mask_path": "masks_bw/000002752.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002753.png",
+        "mask_path": "masks_bw/000002753.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002762.png",
+        "mask_path": "masks_bw/000002762.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002772.png",
+        "mask_path": "masks_bw/000002772.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002773.png",
+        "mask_path": "masks_bw/000002773.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002782.png",
+        "mask_path": "masks_bw/000002782.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002783.png",
+        "mask_path": "masks_bw/000002783.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002793.png",
+        "mask_path": "masks_bw/000002793.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002802.png",
+        "mask_path": "masks_bw/000002802.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002803.png",
+        "mask_path": "masks_bw/000002803.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002807.png",
+        "mask_path": "masks_bw/000002807.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002809.png",
+        "mask_path": "masks_bw/000002809.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002810.png",
+        "mask_path": "masks_bw/000002810.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002812.png",
+        "mask_path": "masks_bw/000002812.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002822.png",
+        "mask_path": "masks_bw/000002822.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002842.png",
+        "mask_path": "masks_bw/000002842.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002852.png",
+        "mask_path": "masks_bw/000002852.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002862.png",
+        "mask_path": "masks_bw/000002862.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002872.png",
+        "mask_path": "masks_bw/000002872.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002892.png",
+        "mask_path": "masks_bw/000002892.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002902.png",
+        "mask_path": "masks_bw/000002902.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002903.png",
+        "mask_path": "masks_bw/000002903.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002907.png",
+        "mask_path": "masks_bw/000002907.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002909.png",
+        "mask_path": "masks_bw/000002909.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002910.png",
+        "mask_path": "masks_bw/000002910.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002912.png",
+        "mask_path": "masks_bw/000002912.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002922.png",
+        "mask_path": "masks_bw/000002922.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002942.png",
+        "mask_path": "masks_bw/000002942.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002952.png",
+        "mask_path": "masks_bw/000002952.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002962.png",
+        "mask_path": "masks_bw/000002962.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002972.png",
+        "mask_path": "masks_bw/000002972.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000002992.png",
+        "mask_path": "masks_bw/000002992.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003002.png",
+        "mask_path": "masks_bw/000003002.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003003.png",
+        "mask_path": "masks_bw/000003003.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003007.png",
+        "mask_path": "masks_bw/000003007.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003009.png",
+        "mask_path": "masks_bw/000003009.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003010.png",
+        "mask_path": "masks_bw/000003010.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003012.png",
+        "mask_path": "masks_bw/000003012.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003022.png",
+        "mask_path": "masks_bw/000003022.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003042.png",
+        "mask_path": "masks_bw/000003042.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003271.png",
+        "mask_path": "masks_bw/000003271.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003281.png",
+        "mask_path": "masks_bw/000003281.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003291.png",
+        "mask_path": "masks_bw/000003291.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003311.png",
+        "mask_path": "masks_bw/000003311.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003321.png",
+        "mask_path": "masks_bw/000003321.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003331.png",
+        "mask_path": "masks_bw/000003331.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003341.png",
+        "mask_path": "masks_bw/000003341.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003361.png",
+        "mask_path": "masks_bw/000003361.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003371.png",
+        "mask_path": "masks_bw/000003371.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003381.png",
+        "mask_path": "masks_bw/000003381.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003391.png",
+        "mask_path": "masks_bw/000003391.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003402.png",
+        "mask_path": "masks_bw/000003402.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003403.png",
+        "mask_path": "masks_bw/000003403.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003408.png",
+        "mask_path": "masks_bw/000003408.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003410.png",
+        "mask_path": "masks_bw/000003410.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003411.png",
+        "mask_path": "masks_bw/000003411.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003421.png",
+        "mask_path": "masks_bw/000003421.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003431.png",
+        "mask_path": "masks_bw/000003431.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003432.png",
+        "mask_path": "masks_bw/000003432.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003441.png",
+        "mask_path": "masks_bw/000003441.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003442.png",
+        "mask_path": "masks_bw/000003442.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003452.png",
+        "mask_path": "masks_bw/000003452.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003461.png",
+        "mask_path": "masks_bw/000003461.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003471.png",
+        "mask_path": "masks_bw/000003471.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003472.png",
+        "mask_path": "masks_bw/000003472.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003481.png",
+        "mask_path": "masks_bw/000003481.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003482.png",
+        "mask_path": "masks_bw/000003482.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003491.png",
+        "mask_path": "masks_bw/000003491.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003492.png",
+        "mask_path": "masks_bw/000003492.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003502.png",
+        "mask_path": "masks_bw/000003502.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003507.png",
+        "mask_path": "masks_bw/000003507.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003508.png",
+        "mask_path": "masks_bw/000003508.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003509.png",
+        "mask_path": "masks_bw/000003509.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003510.png",
+        "mask_path": "masks_bw/000003510.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003511.png",
+        "mask_path": "masks_bw/000003511.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003521.png",
+        "mask_path": "masks_bw/000003521.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003522.png",
+        "mask_path": "masks_bw/000003522.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003531.png",
+        "mask_path": "masks_bw/000003531.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003532.png",
+        "mask_path": "masks_bw/000003532.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003542.png",
+        "mask_path": "masks_bw/000003542.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003552.png",
+        "mask_path": "masks_bw/000003552.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003571.png",
+        "mask_path": "masks_bw/000003571.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003572.png",
+        "mask_path": "masks_bw/000003572.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003582.png",
+        "mask_path": "masks_bw/000003582.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003591.png",
+        "mask_path": "masks_bw/000003591.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003592.png",
+        "mask_path": "masks_bw/000003592.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003601.png",
+        "mask_path": "masks_bw/000003601.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003602.png",
+        "mask_path": "masks_bw/000003602.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003607.png",
+        "mask_path": "masks_bw/000003607.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003608.png",
+        "mask_path": "masks_bw/000003608.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003609.png",
+        "mask_path": "masks_bw/000003609.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003610.png",
+        "mask_path": "masks_bw/000003610.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003611.png",
+        "mask_path": "masks_bw/000003611.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003621.png",
+        "mask_path": "masks_bw/000003621.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003622.png",
+        "mask_path": "masks_bw/000003622.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003632.png",
+        "mask_path": "masks_bw/000003632.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003641.png",
+        "mask_path": "masks_bw/000003641.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003642.png",
+        "mask_path": "masks_bw/000003642.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003651.png",
+        "mask_path": "masks_bw/000003651.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003652.png",
+        "mask_path": "masks_bw/000003652.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003661.png",
+        "mask_path": "masks_bw/000003661.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003671.png",
+        "mask_path": "masks_bw/000003671.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003672.png",
+        "mask_path": "masks_bw/000003672.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003682.png",
+        "mask_path": "masks_bw/000003682.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003692.png",
+        "mask_path": "masks_bw/000003692.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003701.png",
+        "mask_path": "masks_bw/000003701.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003702.png",
+        "mask_path": "masks_bw/000003702.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003708.png",
+        "mask_path": "masks_bw/000003708.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003709.png",
+        "mask_path": "masks_bw/000003709.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003710.png",
+        "mask_path": "masks_bw/000003710.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003711.png",
+        "mask_path": "masks_bw/000003711.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003712.png",
+        "mask_path": "masks_bw/000003712.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003721.png",
+        "mask_path": "masks_bw/000003721.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003731.png",
+        "mask_path": "masks_bw/000003731.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003732.png",
+        "mask_path": "masks_bw/000003732.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003742.png",
+        "mask_path": "masks_bw/000003742.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003751.png",
+        "mask_path": "masks_bw/000003751.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003752.png",
+        "mask_path": "masks_bw/000003752.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003761.png",
+        "mask_path": "masks_bw/000003761.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003762.png",
+        "mask_path": "masks_bw/000003762.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003771.png",
+        "mask_path": "masks_bw/000003771.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003781.png",
+        "mask_path": "masks_bw/000003781.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003782.png",
+        "mask_path": "masks_bw/000003782.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003792.png",
+        "mask_path": "masks_bw/000003792.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003801.png",
+        "mask_path": "masks_bw/000003801.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003802.png",
+        "mask_path": "masks_bw/000003802.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003803.png",
+        "mask_path": "masks_bw/000003803.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003808.png",
+        "mask_path": "masks_bw/000003808.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003809.png",
+        "mask_path": "masks_bw/000003809.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003810.png",
+        "mask_path": "masks_bw/000003810.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003811.png",
+        "mask_path": "masks_bw/000003811.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003812.png",
+        "mask_path": "masks_bw/000003812.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003821.png",
+        "mask_path": "masks_bw/000003821.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003831.png",
+        "mask_path": "masks_bw/000003831.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003832.png",
+        "mask_path": "masks_bw/000003832.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003842.png",
+        "mask_path": "masks_bw/000003842.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003851.png",
+        "mask_path": "masks_bw/000003851.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003852.png",
+        "mask_path": "masks_bw/000003852.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003861.png",
+        "mask_path": "masks_bw/000003861.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003862.png",
+        "mask_path": "masks_bw/000003862.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003871.png",
+        "mask_path": "masks_bw/000003871.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003881.png",
+        "mask_path": "masks_bw/000003881.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003882.png",
+        "mask_path": "masks_bw/000003882.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003892.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000003901.png",
+        "mask_path": "masks_bw/000003901.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003902.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000003908.png",
+        "mask_path": "masks_bw/000003908.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003910.png",
+        "mask_path": "masks_bw/000003910.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003911.png",
+        "mask_path": "masks_bw/000003911.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003912.png",
+        "mask_path": "masks_bw/000003912.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003921.png",
+        "mask_path": "masks_bw/000003921.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003922.png",
+        "mask_path": "masks_bw/000003922.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003931.png",
+        "mask_path": "masks_bw/000003931.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003932.png",
+        "mask_path": "masks_bw/000003932.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003951.png",
+        "mask_path": "masks_bw/000003951.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003952.png",
+        "mask_path": "masks_bw/000003952.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003961.png",
+        "mask_path": "masks_bw/000003961.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003962.png",
+        "mask_path": "masks_bw/000003962.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003971.png",
+        "mask_path": "masks_bw/000003971.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003972.png",
+        "mask_path": "masks_bw/000003972.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003981.png",
+        "mask_path": "masks_bw/000003981.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000003982.png",
+        "mask_path": "masks_bw/000003982.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004001.png",
+        "mask_path": "masks_bw/000004001.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004002.png",
+        "mask_path": "masks_bw/000004002.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004003.png",
+        "mask_path": "masks_bw/000004003.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004007.png",
+        "mask_path": "masks_bw/000004007.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004008.png",
+        "mask_path": "masks_bw/000004008.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004010.png",
+        "mask_path": "masks_bw/000004010.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004011.png",
+        "mask_path": "masks_bw/000004011.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004012.png",
+        "mask_path": "masks_bw/000004012.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004021.png",
+        "mask_path": "masks_bw/000004021.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004022.png",
+        "mask_path": "masks_bw/000004022.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004031.png",
+        "mask_path": "masks_bw/000004031.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004032.png",
+        "mask_path": "masks_bw/000004032.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004051.png",
+        "mask_path": "masks_bw/000004051.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004052.png",
+        "mask_path": "masks_bw/000004052.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004061.png",
+        "mask_path": "masks_bw/000004061.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004062.png",
+        "mask_path": "masks_bw/000004062.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004071.png",
+        "mask_path": "masks_bw/000004071.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004072.png",
+        "mask_path": "masks_bw/000004072.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004081.png",
+        "mask_path": "masks_bw/000004081.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004082.png",
+        "mask_path": "masks_bw/000004082.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004101.png",
+        "mask_path": "masks_bw/000004101.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004102.png",
+        "mask_path": "masks_bw/000004102.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004107.png",
+        "mask_path": "masks_bw/000004107.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004108.png",
+        "mask_path": "masks_bw/000004108.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004109.png",
+        "mask_path": "masks_bw/000004109.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004111.png",
+        "mask_path": "masks_bw/000004111.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004112.png",
+        "mask_path": "masks_bw/000004112.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004121.png",
+        "mask_path": "masks_bw/000004121.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004122.png",
+        "mask_path": "masks_bw/000004122.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004131.png",
+        "mask_path": "masks_bw/000004131.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004132.png",
+        "mask_path": "masks_bw/000004132.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004142.png",
+        "mask_path": "masks_bw/000004142.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004162.png",
+        "mask_path": "masks_bw/000004162.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004172.png",
+        "mask_path": "masks_bw/000004172.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004182.png",
+        "mask_path": "masks_bw/000004182.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004192.png",
+        "mask_path": "masks_bw/000004192.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004203.png",
+        "mask_path": "masks_bw/000004203.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004207.png",
+        "mask_path": "masks_bw/000004207.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004208.png",
+        "mask_path": "masks_bw/000004208.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004209.png",
+        "mask_path": "masks_bw/000004209.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004212.png",
+        "mask_path": "masks_bw/000004212.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004222.png",
+        "mask_path": "masks_bw/000004222.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004232.png",
+        "mask_path": "masks_bw/000004232.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004242.png",
+        "mask_path": "masks_bw/000004242.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004262.png",
+        "mask_path": "masks_bw/000004262.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004272.png",
+        "mask_path": "masks_bw/000004272.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004282.png",
+        "mask_path": "masks_bw/000004282.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004292.png",
+        "mask_path": "masks_bw/000004292.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004301.png",
+        "mask_path": "masks_bw/000004301.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004303.png",
+        "mask_path": "masks_bw/000004303.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004307.png",
+        "mask_path": "masks_bw/000004307.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004308.png",
+        "mask_path": "masks_bw/000004308.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004309.png",
+        "mask_path": "masks_bw/000004309.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004311.png",
+        "mask_path": "masks_bw/000004311.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004312.png",
+        "mask_path": "masks_bw/000004312.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004321.png",
+        "mask_path": "masks_bw/000004321.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004322.png",
+        "mask_path": "masks_bw/000004322.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004331.png",
+        "mask_path": "masks_bw/000004331.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004332.png",
+        "mask_path": "masks_bw/000004332.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004342.png",
+        "mask_path": "masks_bw/000004342.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004351.png",
+        "mask_path": "",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 0
+      },
+      {
+        "img_path": "images/000004361.png",
+        "mask_path": "masks_bw/000004361.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004362.png",
+        "mask_path": "masks_bw/000004362.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004371.png",
+        "mask_path": "masks_bw/000004371.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004372.png",
+        "mask_path": "masks_bw/000004372.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004381.png",
+        "mask_path": "masks_bw/000004381.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004382.png",
+        "mask_path": "masks_bw/000004382.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004392.png",
+        "mask_path": "masks_bw/000004392.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004403.png",
+        "mask_path": "masks_bw/000004403.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004407.png",
+        "mask_path": "masks_bw/000004407.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004408.png",
+        "mask_path": "masks_bw/000004408.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004409.png",
+        "mask_path": "masks_bw/000004409.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004412.png",
+        "mask_path": "masks_bw/000004412.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004422.png",
+        "mask_path": "masks_bw/000004422.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004432.png",
+        "mask_path": "masks_bw/000004432.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004442.png",
+        "mask_path": "masks_bw/000004442.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004461.png",
+        "mask_path": "masks_bw/000004461.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004462.png",
+        "mask_path": "masks_bw/000004462.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004471.png",
+        "mask_path": "masks_bw/000004471.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004472.png",
+        "mask_path": "masks_bw/000004472.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004481.png",
+        "mask_path": "masks_bw/000004481.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004482.png",
+        "mask_path": "masks_bw/000004482.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004491.png",
+        "mask_path": "masks_bw/000004491.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004492.png",
+        "mask_path": "masks_bw/000004492.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004503.png",
+        "mask_path": "masks_bw/000004503.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004507.png",
+        "mask_path": "masks_bw/000004507.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004508.png",
+        "mask_path": "masks_bw/000004508.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004509.png",
+        "mask_path": "masks_bw/000004509.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004511.png",
+        "mask_path": "masks_bw/000004511.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004512.png",
+        "mask_path": "masks_bw/000004512.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004521.png",
+        "mask_path": "masks_bw/000004521.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004522.png",
+        "mask_path": "masks_bw/000004522.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004531.png",
+        "mask_path": "masks_bw/000004531.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004532.png",
+        "mask_path": "masks_bw/000004532.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004541.png",
+        "mask_path": "masks_bw/000004541.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004542.png",
+        "mask_path": "masks_bw/000004542.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004561.png",
+        "mask_path": "masks_bw/000004561.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004571.png",
+        "mask_path": "masks_bw/000004571.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004581.png",
+        "mask_path": "masks_bw/000004581.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004591.png",
+        "mask_path": "masks_bw/000004591.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004607.png",
+        "mask_path": "masks_bw/000004607.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004608.png",
+        "mask_path": "masks_bw/000004608.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004609.png",
+        "mask_path": "masks_bw/000004609.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004610.png",
+        "mask_path": "masks_bw/000004610.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004611.png",
+        "mask_path": "masks_bw/000004611.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004621.png",
+        "mask_path": "masks_bw/000004621.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004631.png",
+        "mask_path": "masks_bw/000004631.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004641.png",
+        "mask_path": "masks_bw/000004641.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004661.png",
+        "mask_path": "masks_bw/000004661.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004671.png",
+        "mask_path": "masks_bw/000004671.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004681.png",
+        "mask_path": "masks_bw/000004681.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004691.png",
+        "mask_path": "masks_bw/000004691.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004711.png",
+        "mask_path": "masks_bw/000004711.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004721.png",
+        "mask_path": "masks_bw/000004721.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004731.png",
+        "mask_path": "masks_bw/000004731.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004741.png",
+        "mask_path": "masks_bw/000004741.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004761.png",
+        "mask_path": "masks_bw/000004761.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004771.png",
+        "mask_path": "masks_bw/000004771.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004781.png",
+        "mask_path": "masks_bw/000004781.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004791.png",
+        "mask_path": "masks_bw/000004791.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004808.png",
+        "mask_path": "masks_bw/000004808.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004809.png",
+        "mask_path": "masks_bw/000004809.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004811.png",
+        "mask_path": "masks_bw/000004811.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004821.png",
+        "mask_path": "masks_bw/000004821.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004831.png",
+        "mask_path": "masks_bw/000004831.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004841.png",
+        "mask_path": "masks_bw/000004841.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004902.png",
+        "mask_path": "masks_bw/000004902.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004903.png",
+        "mask_path": "masks_bw/000004903.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004908.png",
+        "mask_path": "masks_bw/000004908.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004909.png",
+        "mask_path": "masks_bw/000004909.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004910.png",
+        "mask_path": "masks_bw/000004910.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004912.png",
+        "mask_path": "masks_bw/000004912.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004932.png",
+        "mask_path": "masks_bw/000004932.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004941.png",
+        "mask_path": "masks_bw/000004941.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004942.png",
+        "mask_path": "masks_bw/000004942.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004951.png",
+        "mask_path": "masks_bw/000004951.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004952.png",
+        "mask_path": "masks_bw/000004952.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004961.png",
+        "mask_path": "masks_bw/000004961.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004962.png",
+        "mask_path": "masks_bw/000004962.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004971.png",
+        "mask_path": "masks_bw/000004971.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004982.png",
+        "mask_path": "masks_bw/000004982.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004991.png",
+        "mask_path": "masks_bw/000004991.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000004992.png",
+        "mask_path": "masks_bw/000004992.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005001.png",
+        "mask_path": "masks_bw/000005001.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005011.png",
+        "mask_path": "masks_bw/000005011.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005021.png",
+        "mask_path": "masks_bw/000005021.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005041.png",
+        "mask_path": "masks_bw/000005041.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005051.png",
+        "mask_path": "masks_bw/000005051.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005061.png",
+        "mask_path": "masks_bw/000005061.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005071.png",
+        "mask_path": "masks_bw/000005071.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005091.png",
+        "mask_path": "masks_bw/000005091.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005101.png",
+        "mask_path": "masks_bw/000005101.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005111.png",
+        "mask_path": "masks_bw/000005111.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005121.png",
+        "mask_path": "masks_bw/000005121.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005141.png",
+        "mask_path": "masks_bw/000005141.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005151.png",
+        "mask_path": "masks_bw/000005151.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005161.png",
+        "mask_path": "masks_bw/000005161.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005171.png",
+        "mask_path": "masks_bw/000005171.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005191.png",
+        "mask_path": "masks_bw/000005191.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005201.png",
+        "mask_path": "masks_bw/000005201.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005211.png",
+        "mask_path": "masks_bw/000005211.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005221.png",
+        "mask_path": "masks_bw/000005221.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005241.png",
+        "mask_path": "masks_bw/000005241.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005251.png",
+        "mask_path": "masks_bw/000005251.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005261.png",
+        "mask_path": "masks_bw/000005261.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005271.png",
+        "mask_path": "masks_bw/000005271.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005291.png",
+        "mask_path": "masks_bw/000005291.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005301.png",
+        "mask_path": "masks_bw/000005301.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005311.png",
+        "mask_path": "masks_bw/000005311.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005321.png",
+        "mask_path": "masks_bw/000005321.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      },
+      {
+        "img_path": "images/000005341.png",
+        "mask_path": "masks_bw/000005341.png",
+        "cls_name": "puddle",
+        "specie_name": "Puddle-1000 Dataset_train_foggy3.2",
+        "anomaly": 1
+      }
+    ]
+  }
+}

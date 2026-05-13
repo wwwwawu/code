@@ -104,6 +104,23 @@ class BinaryDiceLoss(nn.Module):
         # Calculate average loss per image in batch
         loss = 1 - N_dice_eff.sum() / N
         return loss
+
+
+class BinaryIoULoss(nn.Module):
+    """Soft IoU loss for binary segmentation probability maps."""
+
+    def __init__(self, smooth=1.0):
+        super().__init__()
+        self.smooth = smooth
+
+    def forward(self, input, targets):
+        N = targets.size(0)
+        input_flat = input.view(N, -1)
+        targets_flat = targets.view(N, -1)
+        intersection = (input_flat * targets_flat).sum(1)
+        union = input_flat.sum(1) + targets_flat.sum(1) - intersection
+        iou = (intersection + self.smooth) / (union + self.smooth)
+        return 1 - iou.mean()
     
 def smooth(arr, lamda1):
     new_array = arr

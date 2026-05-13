@@ -1,5 +1,6 @@
 import os
 import json
+import argparse
 import pandas as pd
 
 
@@ -10,9 +11,9 @@ class VisASolver(object):
         'pcb4', 'pipe_fryum',
     ]
 
-    def __init__(self, root='data/visa'):
+    def __init__(self, root='data/visa', meta_path=None):
         self.root = root
-        self.meta_path = f'{root}/meta.json'
+        self.meta_path = meta_path or f'{root}/meta.json'
         self.phases = ['train', 'test']
         self.csv_data = pd.read_csv(f'{root}/split_csv/1cls.csv', header=0)
 
@@ -50,5 +51,12 @@ class VisASolver(object):
 
 
 if __name__ == '__main__':
-    runner = VisASolver(root='/home/hyn/work/dataset/AD/Visa')
+    parser = argparse.ArgumentParser("Generate VisualAD meta.json for VisA")
+    parser.add_argument("--root", type=str, default="/media/data/jjh/datasets/VisA",
+                        help="path to the extracted VisA root directory")
+    parser.add_argument("--meta_path", type=str, default=None,
+                        help="optional output path for meta.json; defaults to ROOT/meta.json")
+    args = parser.parse_args()
+
+    runner = VisASolver(root=args.root, meta_path=args.meta_path)
     runner.run()

@@ -33,18 +33,31 @@ def generate_class_info(dataset_name):
         obj_list = ['chest']
     elif dataset_name == 'thyroid':
         obj_list = ['thyroid']
+    elif dataset_name in ['uwbench', 'uw-bench', 'UW-Bench']:
+        obj_list = ['road']
+    elif dataset_name in ['puddle1000', 'puddle-1000', 'Puddle-1000']:
+        obj_list = ['puddle']
+    elif dataset_name in ['mixed_water', 'uwbench_puddle', 'uwbench7+puddle', 'uwbench7_puddle']:
+        obj_list = ['water']
+    elif dataset_name in ['roadway_flooding', 'roadway-flooding', 'Roadway-Flooding', 'Image Dataset for Roadway Flooding']:
+        obj_list = ['road']
+    elif dataset_name in ['urban_flood', 'urban-flood', 'Urban-Flood-Image', 'Urban Flood Image Dataset']:
+        obj_list = ['road']
+    elif dataset_name in ['mydatasets', 'mydataset', 'my_datasets']:
+        obj_list = ['road']
     for k, index in zip(obj_list, range(len(obj_list))):
         class_name_map_class_id[k] = index
 
     return obj_list, class_name_map_class_id
 
 class Dataset(data.Dataset):
-    def __init__(self, root, transform, target_transform, dataset_name, mode='test'):
+    def __init__(self, root, transform, target_transform, dataset_name, mode='test', meta_path=None):
         self.root = root
         self.transform = transform
         self.target_transform = target_transform
         self.data_all = []
-        meta_info = json.load(open(f'{self.root}/meta.json', 'r'))
+        meta_file = meta_path if meta_path is not None else f'{self.root}/meta.json'
+        meta_info = json.load(open(meta_file, 'r'))
         name = self.root.split('/')[-1]
         meta_info = meta_info[mode]
 

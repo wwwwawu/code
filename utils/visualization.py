@@ -4,10 +4,16 @@ Visualization utilities for anomaly detection analysis and results
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+try:
+    import seaborn as sns
+except ImportError:
+    sns = None
 import torch
 from PIL import Image
-import cv2
+try:
+    import cv2
+except ImportError:
+    cv2 = None
 import warnings
 
 # Configure matplotlib to avoid font warnings
@@ -17,7 +23,8 @@ warnings.filterwarnings('ignore', category=UserWarning, module='matplotlib')
 
 
 def visualize_single_sample(original_image, anomaly_map, gt_mask, classification_score,
-                            cls_name, img_path, anomaly_label, save_path):
+                            cls_name, img_path, anomaly_label, save_path,
+                            prediction_map=None, eval_threshold=0.5):
     """
     Visualize anomaly detection results for a single sample (per-image normalization + heatmap overlay)
 
@@ -29,7 +36,9 @@ def visualize_single_sample(original_image, anomaly_map, gt_mask, classification
         cls_name: Class name str
         img_path: Image path str
         anomaly_label: True anomaly label (0=normal, 1=anomaly)
-        save_path: Save path str (for combined 3-in-1 image)
+        save_path: Save path str (for combined 4-in-1 image)
+        prediction_map: Raw filtered anomaly map used for metric-aligned predicted mask
+        eval_threshold: Threshold applied after sigmoid(prediction_map)
     """
     # Prepare save directory
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -72,6 +81,31 @@ def visualize_single_sample(original_image, anomaly_map, gt_mask, classification
     # Overlay heatmap on original image (alpha blending: 0.5 * heatmap + 0.5 * original)
     overlay = cv2.addWeighted(heatmap, 0.5, img_uint8, 0.5, 0)
 
+    # Metric-aligned predicted mask from the raw filtered anomaly score map.
+    pred_source = prediction_map if prediction_map is not None else anomaly_map
+    pred_logits = pred_source.squeeze().cpu().numpy() if torch.is_tensor(pred_source) else np.squeeze(pred_source)
+    pred_prob = 1.0 / (1.0 + np.exp(-np.clip(pred_logits, -50, 50)))
+    pre_mask = (pred_prob >= eval_threshold).astype(np.uint8)
+    if pre_mask.shape[:2] != img_uint8.shape[:2]:
+        if cv2 is not None:
+            pre_mask = cv2.resize(pre_mask, (img_uint8.shape[1], img_uint8.shape[0]), interpolation=cv2.INTER_NEAREST)
+        else:
+            pre_mask = np.array(
+                Image.fromarray(pre_mask * 255).resize(
+                    (img_uint8.shape[1], img_uint8.shape[0]),
+                    resample=Image.NEAREST,
+                )
+            ) > 0
+            pre_mask = pre_mask.astype(np.uint8)
+    pre_mask_visual = pre_mask * 255
+    pre_mask_overlay = img_uint8.copy()
+    mask_bool = pre_mask.astype(bool)
+    if mask_bool.any():
+        water_color = np.array([120, 220, 255], dtype=np.float32)
+        alpha = 0.45
+        blended = (img_uint8[mask_bool].astype(np.float32) * (1.0 - alpha) + water_color * alpha)
+        pre_mask_overlay[mask_bool] = np.clip(blended, 0, 255).astype(np.uint8)
+
     # 1. Save individual original image (no title)
     fig_original = plt.figure(figsize=(4, 4))
     plt.imshow(img)
@@ -85,10 +119,26 @@ def visualize_single_sample(original_image, anomaly_map, gt_mask, classification
     plt.imshow(gt, cmap='gray')
     plt.axis('off')
     plt.tight_layout()
-    plt.savefig(f'{base_path}_gt.png', dpi=150, bbox_inches='tight', pad_inches=0)
+    plt.savefig(f'{base_path}_mask.png', dpi=150, bbox_inches='tight', pad_inches=0)
     plt.close(fig_gt)
 
-    # 3. Save individual heatmap overlay (no title)
+    # 3. Save individual predicted mask (no title)
+    fig_pre_mask = plt.figure(figsize=(4, 4))
+    plt.imshow(pre_mask_visual, cmap='gray', vmin=0, vmax=255)
+    plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(f'{base_path}_pre_mask.png', dpi=150, bbox_inches='tight', pad_inches=0)
+    plt.close(fig_pre_mask)
+
+    # 4. Save individual predicted mask overlay (no title)
+    fig_pre_mask_overlay = plt.figure(figsize=(4, 4))
+    plt.imshow(pre_mask_overlay)
+    plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(f'{base_path}_pre_mask_overlay.png', dpi=150, bbox_inches='tight', pad_inches=0)
+    plt.close(fig_pre_mask_overlay)
+
+    # 5. Save individual heatmap overlay (no title)
     fig_overlay = plt.figure(figsize=(4, 4))
     plt.imshow(overlay)
     plt.axis('off')
@@ -96,20 +146,24 @@ def visualize_single_sample(original_image, anomaly_map, gt_mask, classification
     plt.savefig(f'{base_path}_overlay.png', dpi=150, bbox_inches='tight', pad_inches=0)
     plt.close(fig_overlay)
 
-    # 4. Save combined 3-in-1 image
-    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+    # 6. Save combined 4-in-1 image
+    fig, axes = plt.subplots(2, 2, figsize=(8, 8))
 
-    axes[0].imshow(img)
-    axes[0].set_title(f'Original (Score: {classification_score:.3f})')
-    axes[0].axis('off')
+    axes[0, 0].imshow(img)
+    axes[0, 0].set_title(f'Original (Score: {classification_score:.3f})')
+    axes[0, 0].axis('off')
 
-    axes[1].imshow(gt, cmap='gray')
-    axes[1].set_title('Ground Truth')
-    axes[1].axis('off')
+    axes[0, 1].imshow(gt, cmap='gray')
+    axes[0, 1].set_title('Mask')
+    axes[0, 1].axis('off')
 
-    axes[2].imshow(overlay)
-    axes[2].set_title(f'Heatmap Overlay (0.5:0.5)')
-    axes[2].axis('off')
+    axes[1, 0].imshow(pre_mask_overlay)
+    axes[1, 0].set_title('Predicted Mask Overlay')
+    axes[1, 0].axis('off')
+
+    axes[1, 1].imshow(pre_mask_visual, cmap='gray', vmin=0, vmax=255)
+    axes[1, 1].set_title(f'Predicted Mask (thr={eval_threshold:.2f})')
+    axes[1, 1].axis('off')
 
     plt.tight_layout()
     plt.savefig(save_path, dpi=150, bbox_inches='tight')
@@ -118,7 +172,8 @@ def visualize_single_sample(original_image, anomaly_map, gt_mask, classification
 
 def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
                               classification_scores, cls_names, img_paths,
-                              anomaly_labels, dataset_name, save_dir):
+                              anomaly_labels, dataset_name, save_dir,
+                              prediction_maps=None, eval_threshold=0.5):
     """
     Visualize anomaly detection results, with per-image independent normalization
 
@@ -132,13 +187,18 @@ def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
         anomaly_labels: List of true anomaly labels (0=normal, 1=anomaly)
         dataset_name: Dataset name
         save_dir: Save directory
+        prediction_maps: Raw filtered anomaly maps for metric-aligned predicted masks
+        eval_threshold: Threshold applied after sigmoid(prediction_map)
     """
+    if prediction_maps is None:
+        prediction_maps = anomaly_maps
+
     # Organize data by class
     class_data = {}
     for i, cls_name in enumerate(cls_names):
         if cls_name not in class_data:
             class_data[cls_name] = {'images': [], 'maps': [], 'masks': [], 'scores': [],
-                                   'labels': [], 'paths': [], 'indices': []}
+                                   'labels': [], 'paths': [], 'indices': [], 'pred_maps': []}
         class_data[cls_name]['images'].append(original_images[i])
         class_data[cls_name]['maps'].append(anomaly_maps[i])
         class_data[cls_name]['masks'].append(gt_masks[i])
@@ -146,6 +206,7 @@ def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
         class_data[cls_name]['labels'].append(anomaly_labels[i])
         class_data[cls_name]['paths'].append(img_paths[i])
         class_data[cls_name]['indices'].append(i)
+        class_data[cls_name]['pred_maps'].append(prediction_maps[i])
 
     total_saved = 0
     # Generate visualization for each class
@@ -154,8 +215,9 @@ def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
         class_save_dir = os.path.join(save_dir, dataset_name, cls_name)
         os.makedirs(class_save_dir, exist_ok=True)
 
-        # Generate individual images for all samples
-        for idx in range(len(data['images'])):
+        # Generate individual images for all samples, ordered by anomaly score from low to high.
+        sorted_indices = sorted(range(len(data['images'])), key=lambda item_idx: data['scores'][item_idx])
+        for idx in sorted_indices:
             score = data['scores'][idx]
             true_label = data['labels'][idx]
             img_path = data['paths'][idx]
@@ -179,13 +241,59 @@ def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
                 cls_name=cls_name,
                 img_path=img_path,
                 anomaly_label=true_label,
-                save_path=save_path
+                save_path=save_path,
+                prediction_map=data['pred_maps'][idx],
+                eval_threshold=eval_threshold,
             )
             total_saved += 1
 
         print(f"✅ Saved {len(data['images'])} individual images for class '{cls_name}' in {class_save_dir}")
 
     print(f"✅ Total visualization images saved: {total_saved}")
+
+
+def visualize_unlabeled_prediction(original_image, prediction_map, score, img_path, save_path, eval_threshold=0.5):
+    """Save a 3-panel unlabeled prediction: original, predicted mask, predicted overlay."""
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+
+    img = original_image.squeeze().cpu().numpy()
+    if img.shape[0] == 3:
+        img = np.transpose(img, (1, 2, 0))
+    img = (img - img.min()) / (img.max() - img.min() + 1e-8)
+    img_uint8 = (img * 255).astype(np.uint8)
+
+    pred_logits = prediction_map.squeeze().cpu().numpy() if torch.is_tensor(prediction_map) else np.squeeze(prediction_map)
+    pred_prob = 1.0 / (1.0 + np.exp(-np.clip(pred_logits, -50, 50)))
+    pre_mask = (pred_prob >= eval_threshold).astype(np.uint8)
+    if pre_mask.shape[:2] != img_uint8.shape[:2]:
+        pre_mask = cv2.resize(pre_mask, (img_uint8.shape[1], img_uint8.shape[0]), interpolation=cv2.INTER_NEAREST)
+    pre_mask_visual = pre_mask * 255
+
+    pre_mask_overlay = img_uint8.copy()
+    mask_bool = pre_mask.astype(bool)
+    if mask_bool.any():
+        water_color = np.array([120, 220, 255], dtype=np.float32)
+        alpha = 0.45
+        blended = img_uint8[mask_bool].astype(np.float32) * (1.0 - alpha) + water_color * alpha
+        pre_mask_overlay[mask_bool] = np.clip(blended, 0, 255).astype(np.uint8)
+
+    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+    axes[0].imshow(img)
+    axes[0].set_title("Original")
+    axes[0].axis("off")
+
+    axes[1].imshow(pre_mask_visual, cmap="gray", vmin=0, vmax=255)
+    axes[1].set_title(f"Pred Mask (thr={eval_threshold:.2f})")
+    axes[1].axis("off")
+
+    axes[2].imshow(pre_mask_overlay)
+    axes[2].set_title(f"Overlay (score={score:.3f})")
+    axes[2].axis("off")
+
+    plt.suptitle(os.path.basename(img_path), fontsize=10)
+    plt.tight_layout()
+    plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
 
 
 def generate_overall_analysis_chart(normal_scores, anomaly_scores, class_stats, save_dir):

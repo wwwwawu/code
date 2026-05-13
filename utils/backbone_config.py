@@ -6,7 +6,10 @@ import os
 from typing import Iterable, List, Optional, Sequence
 
 import numpy as np
-import yaml
+try:
+    import yaml
+except ImportError:
+    yaml = None
 
 
 def _log(logger, level: str, message: str) -> None:
@@ -103,6 +106,14 @@ def load_feature_layers_from_config(
     """Load default feature layers for a backbone from a YAML config."""
 
     if not config_path:
+        return None
+
+    if yaml is None:
+        _log(
+            logger,
+            "warning",
+            "PyYAML is not installed; falling back to dynamic feature layer selection.",
+        )
         return None
 
     if not os.path.exists(config_path):

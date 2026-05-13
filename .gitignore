@@ -43,3 +43,7 @@ logs/
 .env
 venv/
 env/
+
+model_cache/
+results/
+__pycache__/

@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "night_puddle_1000_dataset_train_night",
+    "name": "Puddle-1000 Dataset_train_night",
+    "category": "night",
+    "category_dir": "night",
+    "root": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_train_night",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\night_puddle_1000_dataset_train_night.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_train_night\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_train_night\\masks_bw",
+    "num_samples": 400
+  },
+  {
+    "slug": "night_puddle_1000_dataset_val_night",
+    "name": "Puddle-1000 Dataset_val_night",
+    "category": "night",
+    "category_dir": "night",
+    "root": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_val_night",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\night_puddle_1000_dataset_val_night.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_val_night\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\night\\Puddle-1000 Dataset_val_night\\masks_bw",
+    "num_samples": 100
+  },
+  {
+    "slug": "puddle_1000_dataset_puddle_1000_dataset_train",
+    "name": "Puddle-1000 Dataset_train",
+    "category": "puddle_1000_dataset",
+    "category_dir": "puddle_1000_dataset",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_puddle_1000_dataset_train.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train\\masks_bw",
+    "num_samples": 786
+  },
+  {
+    "slug": "puddle_1000_dataset_puddle_1000_dataset_train_on",
+    "name": "Puddle-1000 Dataset_train_on",
+    "category": "puddle_1000_dataset",
+    "category_dir": "puddle_1000_dataset",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train_on",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_puddle_1000_dataset_train_on.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train_on\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_train_on\\masks_bw",
+    "num_samples": 285
+  },
+  {
+    "slug": "puddle_1000_dataset_puddle_1000_dataset_val",
+    "name": "Puddle-1000 Dataset_val",
+    "category": "puddle_1000_dataset",
+    "category_dir": "puddle_1000_dataset",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_puddle_1000_dataset_val.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val\\masks_bw",
+    "num_samples": 198
+  },
+  {
+    "slug": "puddle_1000_dataset_puddle_1000_dataset_val_off",
+    "name": "Puddle-1000 Dataset_val_off",
+    "category": "puddle_1000_dataset",
+    "category_dir": "puddle_1000_dataset",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val_off",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_puddle_1000_dataset_val_off.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val_off\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset\\Puddle-1000 Dataset_val_off\\masks_bw",
+    "num_samples": 126
+  },
+  {
+    "slug": "puddle_1000_dataset_foggy3_2_puddle_1000_dataset_train_foggy3_2",
+    "name": "Puddle-1000 Dataset_train_foggy3.2",
+    "category": "puddle_1000_dataset_foggy3_2",
+    "category_dir": "puddle_1000_dataset_foggy3_2",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_train_foggy3.2",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_foggy3_2_puddle_1000_dataset_train_foggy3_2.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_train_foggy3.2\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_train_foggy3.2\\masks_bw",
+    "num_samples": 786
+  },
+  {
+    "slug": "puddle_1000_dataset_foggy3_2_puddle_1000_dataset_val_foggy3_2",
+    "name": "Puddle-1000 Dataset_val_foggy3.2",
+    "category": "puddle_1000_dataset_foggy3_2",
+    "category_dir": "puddle_1000_dataset_foggy3_2",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_val_foggy3.2",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_foggy3_2_puddle_1000_dataset_val_foggy3_2.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_val_foggy3.2\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_foggy3.2\\Puddle-1000 Dataset_val_foggy3.2\\masks_bw",
+    "num_samples": 198
+  },
+  {
+    "slug": "puddle_1000_dataset_off_puddle_1000_dataset_train_off",
+    "name": "Puddle-1000 Dataset_train_off",
+    "category": "puddle_1000_dataset_off",
+    "category_dir": "puddle_1000_dataset_off",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_off\\Puddle-1000 Dataset_train_off",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_off_puddle_1000_dataset_train_off.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_off\\Puddle-1000 Dataset_train_off\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_off\\Puddle-1000 Dataset_train_off\\masks_bw",
+    "num_samples": 502
+  },
+  {
+    "slug": "puddle_1000_dataset_on_puddle_1000_dataset_val_on",
+    "name": "Puddle-1000 Dataset_val_on",
+    "category": "puddle_1000_dataset_on",
+    "category_dir": "puddle_1000_dataset_on",
+    "root": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_on\\Puddle-1000 Dataset_val_on",
+    "meta_path": "E:\\jin\\python\\visualad\\data_meta\\puddle-1000\\puddle_1000_dataset_on_puddle_1000_dataset_val_on.json",
+    "images_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_on\\Puddle-1000 Dataset_val_on\\images",
+    "masks_dir": "E:\\jin\\python\\Puddle-1000\\Puddle-1000 Dataset_on\\Puddle-1000 Dataset_val_on\\masks_bw",
+    "num_samples": 72
+  }
+]
