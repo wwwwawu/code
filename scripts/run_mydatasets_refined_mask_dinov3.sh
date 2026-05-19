@@ -11,7 +11,7 @@ META_PATH="${META_PATH:-/media/data/jjh/mydatasets/mydatasets_meta.json}"
 OUT_DIR="${OUT_DIR:-experiments/residual-adapters-refined-mask/mydatasets/dinov3-vit-l}"
 RESULT_DIR="${RESULT_DIR:-${OUT_DIR}/results}"
 
-echo "Running VisualAD + residual-adapter + refined-mask on mydatasets"
+echo "Running ProtoWD on mydatasets"
 echo "Device: ${DEVICE}"
 echo "Epochs: ${EPOCHS}"
 echo "Data root: ${DATA_ROOT}"

@@ -1,4 +1,4 @@
-import VisualAD_lib
+import ProtoWD_lib
 import torch
 from torch.cuda.amp import GradScaler, autocast
 import argparse
@@ -406,7 +406,7 @@ def train(args):
     logger.info(f'Training completed! Model saved to {final_ckp_path}')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("VisualAD Training V2", add_help=True)
+    parser = argparse.ArgumentParser("ProtoWD Training", add_help=True)
     parser.add_argument("--train_data_path", type=str, default=DEFAULT_UWBENCH_ROOT, help="train dataset path")
     parser.add_argument("--train_meta_path", type=str, default=DEFAULT_UWBENCH_META, help="optional meta.json path")
     parser.add_argument("--save_path", type=str, default=None, help='path to save results')
@@ -418,8 +418,8 @@ if __name__ == '__main__':
                         help="visual backbone family")
     parser.add_argument("--backbone_name", type=str, default=None,
                         help="model identifier inside the selected backbone family")
-    parser.add_argument("--backbone", type=str, default="ViT-L/14@336px",
-                        choices=VisualAD_lib.available_models(), help="CLIP backbone to use")
+    parser.add_argument("--backbone", type=str, default="ViT-L/14@336px", 
+                        choices=ProtoWD_lib.available_models(), help="CLIP backbone to use")
     parser.add_argument("--sam_checkpoint", type=str, default="",
                         help="optional path to a SAM checkpoint; otherwise model_cache/sam is used")
     parser.add_argument("--feature_config", type=str, default=os.path.join('configs', 'backbone_layers.yaml'),
@@ -450,7 +450,7 @@ if __name__ == '__main__':
     parser.add_argument("--adapter_dropout", type=float, default=0.0,
                         help="dropout inside residual adapters")
     parser.add_argument("--use_refined_mask", action="store_true",
-                        help="enable lightweight refined-mask head after VisualAD anomaly maps")
+                        help="enable lightweight mask reconstruction head after ProtoWD response maps")
     parser.add_argument("--refinement_hidden_dim", type=int, default=256,
                         help="hidden channels in the refined-mask head")
     parser.add_argument("--refinement_dropout", type=float, default=0.0,

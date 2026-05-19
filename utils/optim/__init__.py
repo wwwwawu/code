@@ -1,1 +1,1 @@
-"""Optimization utilities for VisualAD."""
+"""Optimization utilities for ProtoWD."""

@@ -1,4 +1,4 @@
-"""Lightweight refinement head for VisualAD anomaly maps."""
+"""Lightweight mask reconstruction head for ProtoWD response maps."""
 
 from __future__ import annotations
 

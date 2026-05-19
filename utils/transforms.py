@@ -1,8 +1,8 @@
 import torchvision.transforms as transforms
 import torchvision.transforms.functional as TF
 # from torchvision.transforms import Compose, Resize, ToTensor, Normalize, InterpolationMode
-from VisualAD_lib.transform import image_transform, ResizeMaxSize
-from VisualAD_lib.constants import OPENAI_DATASET_MEAN, OPENAI_DATASET_STD
+from ProtoWD_lib.transform import image_transform, ResizeMaxSize
+from ProtoWD_lib.constants import OPENAI_DATASET_MEAN, OPENAI_DATASET_STD
 
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)

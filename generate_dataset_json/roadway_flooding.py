@@ -1,4 +1,4 @@
-"""Generate VisualAD meta JSON for Image Dataset for Roadway Flooding.
+"""Generate ProtoWD meta JSON for Image Dataset for Roadway Flooding.
 
 This dataset is used as a test-only road flooding segmentation set. The raw
 labels are expected to be converted first from labels/ to visible mask/ files
@@ -75,7 +75,7 @@ def build_meta(root: Path, allow_missing_masks: bool = False) -> dict:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate Roadway-Flooding test meta JSON for VisualAD.")
+    parser = argparse.ArgumentParser(description="Generate Roadway-Flooding test meta JSON for ProtoWD.")
     parser.add_argument("--root", default=str(DEFAULT_ROOT), help="Roadway-Flooding Dataset root containing images/ and mask/.")
     parser.add_argument("--meta_path", default=str(DEFAULT_META_PATH), help="Output meta JSON path.")
     parser.add_argument(

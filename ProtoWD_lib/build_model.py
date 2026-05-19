@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from .VisualAD import VisualAD
+from .ProtoWD import ProtoWD
 
 def build_model(name: str, state_dict: dict, design_details = None):
     vit = "visual.proj" in state_dict
@@ -27,8 +27,8 @@ def build_model(name: str, state_dict: dict, design_details = None):
     transformer_heads = transformer_width // 64
     transformer_layers = len(set(k.split(".")[2] for k in state_dict if k.startswith(f"transformer.resblocks")))
     
-    # Always use VisualAD for token-aware anomaly detection
-    model = VisualAD(
+    # Always use ProtoWD for token-aware waterlogging detection.
+    model = ProtoWD(
         embed_dim,
         image_resolution, vision_layers, vision_width, vision_patch_size,
         context_length, vocab_size, transformer_width, transformer_heads, transformer_layers

@@ -1,4 +1,4 @@
-import VisualAD_lib
+import ProtoWD_lib
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -365,7 +365,7 @@ def test(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("VisualAD Test", add_help=True)
+    parser = argparse.ArgumentParser("ProtoWD Test", add_help=True)
     parser.add_argument("--test_data_path", type=str, default=DEFAULT_UWBENCH_ROOT, help="test dataset path")
     parser.add_argument("--test_meta_path", type=str, default=DEFAULT_UWBENCH_META, help="optional meta.json path")
     parser.add_argument("--save_path", type=str, default=None, help='path to save test results')

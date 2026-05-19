@@ -304,7 +304,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("VisualAD Unlabeled Image Folder Test", add_help=True)
+    parser = argparse.ArgumentParser("ProtoWD Unlabeled Image Folder Test", add_help=True)
     parser.add_argument("--image_dir", type=str, default=DEFAULT_UNLABELED_ROOT, help="folder containing unlabeled images")
     parser.add_argument("--save_path", type=str, default=DEFAULT_SAVE_PATH, help="path to save unlabeled test results")
     parser.add_argument("--checkpoint_path", type=str, required=True, help="path to trained model checkpoint")

@@ -1,5 +1,5 @@
 """
-Training utility functions for VisualAD
+Training utility functions for ProtoWD
 """
 import torch
 import torch.nn as nn

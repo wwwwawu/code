@@ -168,7 +168,7 @@ class VisionTransformer(nn.Module):
         }
 
 
-class VisualAD(nn.Module):
+class ProtoWD(nn.Module):
     def __init__(self,
                  embed_dim: int,
                  # vision

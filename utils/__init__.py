@@ -1,4 +1,4 @@
-# Utils package for VisualAD.
+# Utils package for ProtoWD.
 #
 # Keep this package initializer light. Training imports submodules such as
 # utils.loss and utils.transforms directly; eager imports here pull optional

@@ -1,4 +1,4 @@
-"""Generate VisualAD meta JSON for Urban Flood Image Dataset.
+"""Generate ProtoWD meta JSON for Urban Flood Image Dataset.
 
 The dataset root is expected to contain two subsets:
   Deepflood/image + Deepflood/mask_bw
@@ -112,7 +112,7 @@ def build_meta(root: Path, allow_missing_masks: bool = False) -> dict:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate Urban Flood Image Dataset test meta JSON for VisualAD.")
+    parser = argparse.ArgumentParser(description="Generate Urban Flood Image Dataset test meta JSON for ProtoWD.")
     parser.add_argument("--root", default=str(DEFAULT_ROOT), help="Urban Flood Image Dataset root.")
     parser.add_argument("--meta_path", default=str(DEFAULT_META_PATH), help="Output meta JSON path.")
     parser.add_argument(

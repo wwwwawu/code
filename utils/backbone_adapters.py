@@ -1,4 +1,4 @@
-"""Backbone adapters for running VisualAD heads on multiple ViT encoders."""
+"""Backbone adapters for running ProtoWD heads on multiple ViT encoders."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import VisualAD_lib
+import ProtoWD_lib
 from .feature_transform import create_residual_adapter
 
 
@@ -63,7 +63,7 @@ class BackboneSpec:
 
 
 class ExternalVisualTokens(nn.Module):
-    """Trainable VisualAD tokens used with frozen external ViT backbones."""
+    """Trainable ProtoWD tokens used with frozen external ViT backbones."""
 
     def __init__(self, embed_dim: int):
         super().__init__()
@@ -74,8 +74,8 @@ class ExternalVisualTokens(nn.Module):
         self.ln_post = nn.LayerNorm(embed_dim)
 
 
-class ExternalBackboneVisualAD(nn.Module):
-    """VisualAD-compatible wrapper for backbones that return patch tokens."""
+class ExternalBackboneProtoWD(nn.Module):
+    """ProtoWD-compatible wrapper for backbones that return patch tokens."""
 
     def __init__(self, adapter: nn.Module, spec: BackboneSpec):
         super().__init__()
@@ -512,7 +512,7 @@ def load_visualad_model(args, device):
     args.backbone = backbone_name if backbone_type == "clip" else getattr(args, "backbone", DEFAULT_BACKBONES["clip"])
 
     if backbone_type == "clip":
-        model, preprocess = VisualAD_lib.load(backbone_name, device=device)
+        model, preprocess = ProtoWD_lib.load(backbone_name, device=device)
         spec = BackboneSpec(
             backbone_type="clip",
             backbone_name=backbone_name,
@@ -543,7 +543,7 @@ def load_visualad_model(args, device):
         patch_size=adapter.patch_size,
         patch_start_idx=0,
     )
-    model = ExternalBackboneVisualAD(adapter, spec).to(device)
+    model = ExternalBackboneProtoWD(adapter, spec).to(device)
     return model, None, spec
 
 
