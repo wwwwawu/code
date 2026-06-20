@@ -22,6 +22,7 @@ from utils.analysis import get_classification_from_segmentation, analyze_classif
 from utils.anomaly_detection import generate_anomaly_map_from_tokens
 from utils.backbone_adapters import load_visualad_model, resolve_backbone_name
 from utils.backbone_config import resolve_features_list
+from utils.checkpoint_io import load_trusted_checkpoint
 from utils.experiment_io import save_args_json, save_per_image_results_csv
 from utils.path_utils import backbone_tag, default_test_dir, experiment_dir_from_checkpoint, next_results_dir
 from utils.refinement_head import RefinementHead
@@ -63,7 +64,7 @@ def test(args):
     device = torch.device(args.device)
 
     # Load checkpoint (required)
-    checkpoint = torch.load(args.checkpoint_path, map_location=device)
+    checkpoint = load_trusted_checkpoint(args.checkpoint_path, map_location=device)
 
     # Use checkpoint values
     args.backbone_type = args.backbone_type or checkpoint.get("backbone_type", "clip")
@@ -73,6 +74,10 @@ def test(args):
         checkpoint.get("backbone", "ViT-L/14@336px"),
     )
     args.backbone = checkpoint.get("backbone", "ViT-L/14@336px")
+    args.prototype_token_mode = checkpoint.get(
+        "prototype_token_mode",
+        "backbone" if args.backbone_type in ("clip", "dinov2", "dinov3") else "external",
+    )
     args.sam_checkpoint = args.sam_checkpoint or checkpoint.get("sam_checkpoint", "")
     args.image_size = checkpoint.get("image_size", 518)
     args.features_list = checkpoint.get("features_list", [6, 12, 18, 24])
@@ -92,6 +97,12 @@ def test(args):
     args.use_refined_mask = bool(checkpoint.get("use_refined_mask", getattr(args, "use_refined_mask", False)))
     args.refinement_hidden_dim = checkpoint.get("refinement_hidden_dim", getattr(args, "refinement_hidden_dim", 256))
     args.refinement_dropout = checkpoint.get("refinement_dropout", getattr(args, "refinement_dropout", 0.0))
+    args.num_anchors = int(
+        checkpoint.get(
+            "num_anchors",
+            checkpoint.get("cross_attn_config", {}).get("num_anchors", getattr(args, "num_anchors", 4)),
+        )
+    )
     tag = backbone_tag(args.backbone_type, args.backbone_name)
     if args.save_path is None:
         if args.use_residual_adapters:
@@ -120,14 +131,16 @@ def test(args):
     )
     logger.info(f"Testing: {args.test_dataset} | Backbone: {args.backbone_type}:{args.backbone_name} | "
                 f"Image: {args.image_size} | Layers: {args.features_list} | Device: {args.device}")
+    logger.info(f"Prototype token mode: {getattr(args, 'prototype_token_mode', 'unknown')}")
     logger.info(f"Checkpoint: {args.checkpoint_path} | Save path: {args.save_path}")
     logger.info(f"Residual adapters: enabled={args.use_residual_adapters} | type={args.adapter_type} | "
                 f"mode={getattr(args, 'residual_adapter_mode', '')} | layers={args.adapter_layer_ids} | "
                 f"ratio={args.adapter_ratio} | bottleneck_ratio={args.adapter_bottleneck_ratio}")
     logger.info(f"Refined mask: {args.use_refined_mask} | Sigma: {args.sigma} | "
                 f"eval_threshold: {args.eval_threshold} | pre_mask_source: {args.pre_mask_threshold_source}")
+    logger.info(f"Spatial-aware cross-attention: num_anchors={args.num_anchors}")
     logger.info(f"Metrics mode: {args.metrics_mode} | fast_metrics_stride: {args.fast_metrics_stride} | "
-                f"analysis_max_samples: {args.analysis_max_samples}")
+                f"metrics_decimals: {args.metrics_decimals} | analysis_max_samples: {args.analysis_max_samples}")
 
     preprocess, target_transform = get_transform(args)
 
@@ -304,6 +317,7 @@ def test(args):
             metrics_mode=args.metrics_mode,
             sample_threshold=args.sample_threshold,
             fast_metrics_stride=getattr(args, 'fast_metrics_stride', 1),
+            metrics_decimals=getattr(args, 'metrics_decimals', 1),
         )
         metrics_payload = {
             "dataset_name": args.test_dataset,
@@ -371,7 +385,7 @@ if __name__ == '__main__':
     parser.add_argument("--save_path", type=str, default=None, help='path to save test results')
     parser.add_argument("--test_dataset", type=str, default='uwbench', help="test dataset name")
     parser.add_argument("--checkpoint_path", type=str, required=True, help="path to trained model checkpoint")
-    parser.add_argument("--backbone_type", type=str, default=None, choices=["clip", "dinov3", "sam"],
+    parser.add_argument("--backbone_type", type=str, default=None, choices=["clip", "dinov2", "dinov3", "sam"],
                         help="optional override for checkpoint backbone family")
     parser.add_argument("--backbone_name", type=str, default=None,
                         help="optional override for checkpoint backbone name")
@@ -379,6 +393,8 @@ if __name__ == '__main__':
                         help="optional path to a SAM checkpoint; otherwise model_cache/sam is used")
     parser.add_argument("--test_mode", type=str, default="test", help="split name in meta.json to evaluate")
     parser.add_argument("--sigma", type=int, default=4, help="gaussian filter sigma")
+    parser.add_argument("--num_anchors", type=int, default=4,
+                        help="metadata fallback for older checkpoints; restored from checkpoint when available")
     parser.add_argument("--eval_threshold", type=float, default=0.5, help="threshold for binary segmentation metrics")
     parser.add_argument("--metrics_mode", type=str, default="all", choices=["segmentation", "all"],
                         help="all: compute segmentation + anomaly-detection style metrics; segmentation: only the main water-segmentation metrics")
@@ -386,6 +402,8 @@ if __name__ == '__main__':
                         help="threshold for image-level water/no-water classification from the raw image score")
     parser.add_argument("--fast_metrics_stride", type=int, default=1,
                         help="subsample flattened pixel arrays by this stride for ranking-based metrics (AP/AUROC/best-F1). 1 keeps exact computation")
+    parser.add_argument("--metrics_decimals", type=int, default=1,
+                        help="decimal places used in the logged metrics table")
     parser.add_argument("--skip_metrics", action="store_true",
                         help="skip metric-table computation; with --enable_analysis the script still computes image-level scores and normalized maps needed for visualization")
     parser.add_argument("--stretch_to_square", action="store_true",
@@ -401,7 +419,7 @@ if __name__ == '__main__':
                         help="which backbone layers receive residual adapters")
     parser.add_argument("--adapter_layer_ids", type=str, default="3,6,9,12",
                         help="comma-separated adapter layer ids; restored from checkpoint when available")
-    parser.add_argument("--adapter_type", type=str, default="mlp", choices=["mlp", "conv"],
+    parser.add_argument("--adapter_type", type=str, default="mlp", choices=["mlp", "conv", "aaclip"],
                         help="residual adapter type; restored from checkpoint when available")
     parser.add_argument("--adapter_ratio", type=float, default=0.01,
                         help="initial residual adapter scale")
@@ -422,3 +440,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     setup_seed(args.seed)
     test(args)
+

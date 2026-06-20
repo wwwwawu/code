@@ -1,10 +1,17 @@
 """
 Training utility functions for ProtoWD
 """
+import random
+
+import numpy as np
 import torch
 import torch.nn as nn
 from .feature_transform import create_feature_transform
-from .residual_adapters import collect_residual_adapter_state, iter_residual_adapter_parameters
+from .residual_adapters import (
+    collect_residual_adapter_state,
+    iter_residual_adapter_parameters,
+    load_residual_adapter_state,
+)
 
 
 def print_training_parameters(args, logger):
@@ -14,9 +21,11 @@ def print_training_parameters(args, logger):
     logger.info(f"Training: {args.train_dataset} | Backbone: {backbone_type}:{backbone_name} | "
                 f"Epochs: {args.epoch} | BS: {args.batch_size} | LR: {args.learning_rate} | "
                 f"Image: {args.image_size} | Layers: {args.features_list}")
+    logger.info(f"Prototype token mode: {getattr(args, 'prototype_token_mode', 'unknown')}")
     logger.info(f"Train data: {getattr(args, 'train_data_path', '')} | "
                 f"Meta: {getattr(args, 'train_meta_path', '')} | Device: {getattr(args, 'device', '')}")
     logger.info(f"Save path: {getattr(args, 'save_path', '')} | Save freq: {getattr(args, 'save_freq', '')}")
+    logger.info(f"Spatial-aware cross-attention: num_anchors={getattr(args, 'num_anchors', 4)}")
     if getattr(args, "use_residual_adapters", False):
         logger.info(f"Residual adapters: type={getattr(args, 'adapter_type', 'mlp')} | "
                     f"mode={getattr(args, 'residual_adapter_mode', '')} | "
@@ -117,6 +126,187 @@ def create_optimizer(model, layer_transforms, args, cross_attn=None, refinement_
     return torch.optim.AdamW(optimizer_params, betas=(0.9, 0.999))
 
 
+def apply_resume_checkpoint_config(args, checkpoint, logger=None):
+    """Restore architecture-affecting args from a checkpoint before modules are built."""
+    resume_keys = [
+        "backbone",
+        "backbone_type",
+        "backbone_name",
+        "prototype_token_mode",
+        "sam_checkpoint",
+        "features_list",
+        "image_size",
+        "use_residual_adapters",
+        "adapter_type",
+        "adapter_layers",
+        "adapter_layer_ids",
+        "adapter_ratio",
+        "adapter_bottleneck_ratio",
+        "adapter_dropout",
+        "num_anchors",
+        "use_iou_loss",
+        "use_refined_mask",
+        "refinement_hidden_dim",
+        "refinement_dropout",
+        "stretch_to_square",
+    ]
+    for key in resume_keys:
+        if key in checkpoint:
+            setattr(args, key, checkpoint[key])
+
+    if logger is not None:
+        logger.info(
+            "Resume config restored from checkpoint | epoch=%s | backbone=%s:%s | "
+            "features=%s | residual_adapters=%s | refined_mask=%s | num_anchors=%s",
+            checkpoint.get("epoch", "unknown"),
+            getattr(args, "backbone_type", "unknown"),
+            getattr(args, "backbone_name", getattr(args, "backbone", "unknown")),
+            getattr(args, "features_list", []),
+            getattr(args, "use_residual_adapters", False),
+            getattr(args, "use_refined_mask", False),
+            getattr(args, "num_anchors", 4),
+        )
+
+
+def _collect_rng_state():
+    state = {
+        "python": random.getstate(),
+        "numpy": np.random.get_state(),
+        "torch": torch.get_rng_state(),
+    }
+    if torch.cuda.is_available():
+        state["cuda"] = torch.cuda.get_rng_state_all()
+    return state
+
+
+def _restore_rng_state(rng_state, logger=None):
+    if not rng_state:
+        if logger is not None:
+            logger.warning(
+                "Checkpoint has no RNG state; DataLoader shuffle/order may differ from uninterrupted training."
+            )
+        return
+    try:
+        if "python" in rng_state:
+            random.setstate(rng_state["python"])
+        if "numpy" in rng_state:
+            np.random.set_state(rng_state["numpy"])
+        if "torch" in rng_state:
+            torch.set_rng_state(rng_state["torch"].cpu())
+        if torch.cuda.is_available() and "cuda" in rng_state:
+            torch.cuda.set_rng_state_all(rng_state["cuda"])
+    except Exception as exc:  # pragma: no cover - defensive logging for environment-specific states.
+        if logger is not None:
+            logger.warning(f"Failed to restore RNG state from checkpoint: {exc}")
+
+
+def _load_tensor_param(param, value, device, name, logger=None):
+    if value is None:
+        return
+    with torch.no_grad():
+        param.copy_(value.to(device))
+    if logger is not None:
+        logger.debug(f"Loaded {name} from resume checkpoint")
+
+
+def _move_optimizer_state_to_device(optimizer, device):
+    for state in optimizer.state.values():
+        for key, value in state.items():
+            if torch.is_tensor(value):
+                state[key] = value.to(device)
+
+
+def load_training_state(
+    checkpoint,
+    model,
+    layer_transforms,
+    cross_attn,
+    refinement_head,
+    optimizer,
+    scheduler,
+    scaler,
+    args,
+    device,
+    logger=None,
+):
+    """Load model/module states plus optimizer, scheduler, scaler, and RNG for resume training."""
+    if isinstance(device, str):
+        device = torch.device(device)
+
+    _load_tensor_param(model.visual.anomaly_token, checkpoint.get("anomaly_token"), device, "anomaly_token", logger)
+    _load_tensor_param(model.visual.normal_token, checkpoint.get("normal_token"), device, "normal_token", logger)
+
+    ln_post = getattr(model.visual, "ln_post", None)
+    if ln_post is not None and checkpoint.get("ln_post_weight") is not None:
+        _load_tensor_param(ln_post.weight, checkpoint.get("ln_post_weight"), device, "ln_post.weight", logger)
+        _load_tensor_param(ln_post.bias, checkpoint.get("ln_post_bias"), device, "ln_post.bias", logger)
+
+    if checkpoint.get("layer_transforms"):
+        missing_layers = []
+        for layer_name, state_dict in checkpoint["layer_transforms"].items():
+            if layer_name in layer_transforms:
+                layer_transforms[layer_name].load_state_dict(state_dict)
+            else:
+                missing_layers.append(layer_name)
+        if missing_layers and logger is not None:
+            logger.warning(f"Skipped unmatched layer transform states: {missing_layers}")
+    elif logger is not None:
+        logger.warning("Checkpoint has no layer transform state; these modules start from current initialization.")
+
+    load_residual_adapter_state(model, checkpoint.get("adapter_state_dict"), logger=logger)
+
+    if cross_attn is not None and checkpoint.get("cross_attn") is not None:
+        cross_attn.load_state_dict(checkpoint["cross_attn"])
+    elif cross_attn is not None and logger is not None:
+        logger.warning("Checkpoint has no cross-attention state; cross-attention starts from current initialization.")
+
+    if refinement_head is not None and checkpoint.get("refinement_head") is not None:
+        refinement_head.load_state_dict(checkpoint["refinement_head"])
+    elif refinement_head is not None and logger is not None:
+        logger.warning("Checkpoint has no refinement head state; refinement head starts from current initialization.")
+
+    if optimizer is not None and checkpoint.get("optimizer_state_dict") is not None:
+        optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+        _move_optimizer_state_to_device(optimizer, device)
+        if logger is not None:
+            logger.info("Optimizer state restored; AdamW moments will continue from checkpoint.")
+    elif logger is not None:
+        logger.warning(
+            "Checkpoint has no optimizer state; continuing from weights only, so it is not strictly identical "
+            "to uninterrupted training."
+        )
+
+    checkpoint_total_epochs = checkpoint.get("total_epochs")
+    can_load_scheduler = (
+        scheduler is not None
+        and checkpoint.get("scheduler_state_dict") is not None
+        and (checkpoint_total_epochs is None or int(checkpoint_total_epochs) == int(args.epoch))
+    )
+    if can_load_scheduler:
+        scheduler.load_state_dict(checkpoint["scheduler_state_dict"])
+        if logger is not None:
+            logger.info("Scheduler state restored.")
+    elif scheduler is not None and checkpoint.get("scheduler_state_dict") is not None and logger is not None:
+        logger.warning(
+            "Checkpoint total_epochs=%s differs from current --epoch=%s; scheduler state was not restored. "
+            "Learning-rate schedule will not be identical to an uninterrupted run.",
+            checkpoint_total_epochs,
+            args.epoch,
+        )
+    elif scheduler is not None and logger is not None:
+        logger.warning("Checkpoint has no scheduler state; scheduler starts from current initialization.")
+
+    if scaler is not None and checkpoint.get("scaler_state_dict") is not None:
+        scaler.load_state_dict(checkpoint["scaler_state_dict"])
+
+    _restore_rng_state(checkpoint.get("rng_state"), logger=logger)
+
+    start_epoch = int(checkpoint.get("epoch", 0))
+    if logger is not None:
+        logger.info(f"Resume checkpoint loaded. Training will continue from epoch {start_epoch + 1}.")
+    return start_epoch
+
+
 def setup_feature_transforms(features_list, device, feature_dim):
     """Setup feature transformation modules"""
     layer_transforms = nn.ModuleDict()
@@ -170,7 +360,18 @@ def validate_gradients(model, logger, epoch):
     return True
 
 
-def save_checkpoint(model, layer_transforms, args, epoch, checkpoint_path, cross_attn=None, refinement_head=None):
+def save_checkpoint(
+    model,
+    layer_transforms,
+    args,
+    epoch,
+    checkpoint_path,
+    cross_attn=None,
+    refinement_head=None,
+    optimizer=None,
+    scheduler=None,
+    scaler=None,
+):
     """Save model checkpoint"""
     import os
 
@@ -188,9 +389,16 @@ def save_checkpoint(model, layer_transforms, args, epoch, checkpoint_path, cross
         "features_list": args.features_list,
         "image_size": args.image_size,
         "epoch": epoch,
+        "total_epochs": int(getattr(args, "epoch", epoch)),
+        "learning_rate": float(getattr(args, "learning_rate", 0.001)),
+        "batch_size": int(getattr(args, "batch_size", 0)),
+        "train_dataset": getattr(args, "train_dataset", ""),
+        "train_data_path": getattr(args, "train_data_path", ""),
+        "train_meta_path": getattr(args, "train_meta_path", ""),
         "backbone": getattr(args, "backbone", "ViT-L/14@336px"),
         "backbone_type": getattr(args, "backbone_type", "clip"),
         "backbone_name": getattr(args, "backbone_name", getattr(args, "backbone", "ViT-L/14@336px")),
+        "prototype_token_mode": getattr(args, "prototype_token_mode", ""),
         "sam_checkpoint": getattr(args, "sam_checkpoint", ""),
         "layer_transforms": transform_state_dict,
         "transform_type": "mlp",
@@ -203,6 +411,7 @@ def save_checkpoint(model, layer_transforms, args, epoch, checkpoint_path, cross
         "adapter_bottleneck_ratio": float(getattr(args, "adapter_bottleneck_ratio", 0.25)),
         "adapter_dropout": float(getattr(args, "adapter_dropout", 0.0)),
         "adapter_state_dict": collect_residual_adapter_state(model),
+        "num_anchors": int(getattr(args, "num_anchors", 4)),
         "use_iou_loss": bool(getattr(args, "use_iou_loss", False)),
         "use_refined_mask": bool(getattr(args, "use_refined_mask", False)),
         "refinement_hidden_dim": int(getattr(args, "refinement_hidden_dim", 256)),
@@ -221,10 +430,19 @@ def save_checkpoint(model, layer_transforms, args, epoch, checkpoint_path, cross
     if cross_attn is not None:
         checkpoint_data["cross_attn"] = cross_attn.state_dict()
         checkpoint_data["cross_attn_config"] = {
-            "num_anchors": 4,
+            "num_anchors": int(getattr(args, "num_anchors", 4)),
             "dropout": 0.1,
             "max_patches": 4096,
             "res_scale_init": 0.01,
         }
+
+    if optimizer is not None:
+        checkpoint_data["optimizer_state_dict"] = optimizer.state_dict()
+    if scheduler is not None:
+        checkpoint_data["scheduler_state_dict"] = scheduler.state_dict()
+    if scaler is not None:
+        checkpoint_data["scaler_state_dict"] = scaler.state_dict()
+    checkpoint_data["rng_state"] = _collect_rng_state()
+    checkpoint_data["resume_supported"] = optimizer is not None
 
     torch.save(checkpoint_data, checkpoint_path)

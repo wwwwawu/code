@@ -9,7 +9,8 @@ from utils.logger import get_logger
 from utils.training_utils import (
     print_training_parameters, validate_training_setup, setup_model_training,
     create_optimizer, setup_feature_transforms, check_for_nan,
-    compute_segmentation_loss, validate_gradients, save_checkpoint
+    compute_segmentation_loss, validate_gradients, save_checkpoint,
+    apply_resume_checkpoint_config, load_training_state
 )
 from tqdm import tqdm
 import numpy as np
@@ -19,8 +20,15 @@ from utils.transforms import get_transform
 from utils.scoring import reduce_anomaly_map, DEFAULT_TOPK_RATIO
 from utils.backbone_adapters import load_visualad_model, resolve_backbone_name
 from utils.backbone_config import resolve_features_list
+from utils.checkpoint_io import load_trusted_checkpoint
 from utils.experiment_io import save_args_json
-from utils.path_utils import backbone_tag, checkpoint_dir, default_residual_train_dir, default_train_dir
+from utils.path_utils import (
+    backbone_tag,
+    checkpoint_dir,
+    default_residual_train_dir,
+    default_train_dir,
+    experiment_dir_from_checkpoint,
+)
 from utils.refinement_head import RefinementHead
 from utils.residual_adapters import configure_residual_adapters
 torch.use_deterministic_algorithms(True, warn_only=True)
@@ -125,6 +133,14 @@ def compute_classification_loss_V2(anomaly_maps_list, labels, device):
 
 
 def train(args):
+    resume_checkpoint_data = None
+    if getattr(args, "resume_checkpoint", ""):
+        resume_checkpoint_data = load_trusted_checkpoint(args.resume_checkpoint, map_location="cpu")
+        apply_resume_checkpoint_config(args, resume_checkpoint_data)
+        args.resume_start_epoch = int(resume_checkpoint_data.get("epoch", 0))
+        if args.save_path is None:
+            args.save_path = experiment_dir_from_checkpoint(args.resume_checkpoint)
+
     args.backbone_name = resolve_backbone_name(args.backbone_type, args.backbone_name, args.backbone)
     tag = backbone_tag(args.backbone_type, args.backbone_name)
     if args.save_path is None:
@@ -142,6 +158,9 @@ def train(args):
 
     logger = get_logger(args.save_path, filename='train.log')
     device = args.device
+    if resume_checkpoint_data is not None:
+        logger.info(f"Resume checkpoint: {args.resume_checkpoint}")
+        apply_resume_checkpoint_config(args, resume_checkpoint_data, logger=logger)
 
     # Load and setup model
     try:
@@ -175,7 +194,7 @@ def train(args):
     cross_attn = build_layer_adaptive_cross_attention(
         layers=args.features_list,
         embed_dim=model.visual.embed_dim,
-        num_anchors=4,
+        num_anchors=args.num_anchors,
         dropout=0.1,
         max_patches=4096,
         res_scale_init=0.01
@@ -209,13 +228,34 @@ def train(args):
     amp_enabled = False
     scaler = GradScaler(enabled=amp_enabled)
 
+    start_epoch = 0
+    if resume_checkpoint_data is not None:
+        start_epoch = load_training_state(
+            resume_checkpoint_data,
+            model,
+            layer_transforms,
+            cross_attn,
+            refinement_head,
+            optimizer,
+            scheduler,
+            scaler,
+            args,
+            device,
+            logger=logger,
+        )
+        if start_epoch >= args.epoch:
+            raise ValueError(
+                f"Resume checkpoint is already at epoch {start_epoch}, but --epoch is {args.epoch}. "
+                "Set --epoch to the final total epoch you want to reach."
+            )
+
     # Initialize losses
     loss_focal = FocalLoss()
     loss_dice = BinaryDiceLoss()
     loss_iou = BinaryIoULoss() if args.use_iou_loss else None
     loss_token_relation = ContrastiveLoss(temperature=0.1, margin=0.5)
     
-    for epoch in tqdm(range(args.epoch)):
+    for epoch in tqdm(range(start_epoch, args.epoch)):
         # Keep model in train mode for gradient computation
         model.train()
         if refinement_head is not None:
@@ -395,13 +435,19 @@ def train(args):
             save_checkpoint(model, layer_transforms, args, epoch + 1,
                           os.path.join(checkpoint_dir(args.save_path), f'epoch_{epoch + 1}.pth'),
                           cross_attn=cross_attn,
-                          refinement_head=refinement_head)
+                          refinement_head=refinement_head,
+                          optimizer=optimizer,
+                          scheduler=scheduler,
+                          scaler=scaler)
 
     # Save final model
     final_ckp_path = os.path.join(checkpoint_dir(args.save_path), 'final_model.pth')
     save_checkpoint(model, layer_transforms, args, args.epoch, final_ckp_path,
                    cross_attn=cross_attn,
-                   refinement_head=refinement_head)
+                   refinement_head=refinement_head,
+                   optimizer=optimizer,
+                   scheduler=scheduler,
+                   scaler=scaler)
 
     logger.info(f'Training completed! Model saved to {final_ckp_path}')
 
@@ -414,7 +460,7 @@ if __name__ == '__main__':
     parser.add_argument("--residual_experiment_name", type=str, default='residual-adapters',
                         help="subdirectory name for residual-adapter experiments")
     parser.add_argument("--train_dataset", type=str, default='uwbench', help="train dataset name")
-    parser.add_argument("--backbone_type", type=str, default="clip", choices=["clip", "dinov3", "sam"],
+    parser.add_argument("--backbone_type", type=str, default="clip", choices=["clip", "dinov2", "dinov3", "sam"],
                         help="visual backbone family")
     parser.add_argument("--backbone_name", type=str, default=None,
                         help="model identifier inside the selected backbone family")
@@ -426,6 +472,8 @@ if __name__ == '__main__':
                         help="YAML file specifying default feature layers per backbone")
     parser.add_argument("--features_list", type=int, nargs="*", default=[6, 12, 18, 24],
                         help="Override feature layers (falls back to YAML config if omitted)")
+    parser.add_argument("--num_anchors", type=int, default=4,
+                        help="number of spatial anchor queries in spatial-aware cross-attention")
     parser.add_argument("--epoch", type=int, default=15, help="epochs")
     parser.add_argument("--learning_rate", type=float, default=0.001, help="learning rate")
     parser.add_argument("--batch_size", type=int, default=8, help="batch size")
@@ -434,6 +482,8 @@ if __name__ == '__main__':
                         help="stretch images and masks to a square instead of preserving aspect ratio with padding")
     parser.add_argument("--print_freq", type=int, default=1, help="print frequency")
     parser.add_argument("--save_freq", type=int, default=1, help="save frequency")
+    parser.add_argument("--resume_checkpoint", type=str, default="",
+                        help="checkpoint path to resume training from; --epoch is treated as the final total epoch")
     parser.add_argument("--use_residual_adapters", action="store_true",
                         help="enable AA-CLIP style residual adapters in the visual backbone")
     parser.add_argument("--adapter_layers", type=str, default="shallow",
@@ -441,8 +491,8 @@ if __name__ == '__main__':
                         help="which backbone layers receive residual adapters")
     parser.add_argument("--adapter_layer_ids", type=str, default="3,6,9,12",
                         help="comma-separated adapter layer ids; used directly when --adapter_layers custom")
-    parser.add_argument("--adapter_type", type=str, default="mlp", choices=["mlp", "conv"],
-                        help="residual adapter type: mlp keeps the original adapter, conv adds a depthwise convolution branch")
+    parser.add_argument("--adapter_type", type=str, default="mlp", choices=["mlp", "conv", "aaclip"],
+                        help="residual adapter type: mlp keeps the original adapter, conv adds a depthwise convolution branch, aaclip uses AA-CLIP style feature mixing")
     parser.add_argument("--adapter_ratio", type=float, default=0.01,
                         help="initial residual adapter scale")
     parser.add_argument("--adapter_bottleneck_ratio", type=float, default=0.25,

@@ -20,6 +20,7 @@ except ImportError:
 from utils.anomaly_detection import generate_anomaly_map_from_tokens
 from utils.backbone_adapters import load_visualad_model, resolve_backbone_name
 from utils.backbone_config import resolve_features_list
+from utils.checkpoint_io import load_trusted_checkpoint
 from utils.experiment_io import save_args_json
 from utils.feature_transform import create_feature_transform
 from utils.logger import get_logger
@@ -61,7 +62,7 @@ def safe_name(root, image_path):
 
 
 def load_components(args, device, logger):
-    checkpoint = torch.load(args.checkpoint_path, map_location=device)
+    checkpoint = load_trusted_checkpoint(args.checkpoint_path, map_location=device)
 
     args.backbone_type = args.backbone_type or checkpoint.get("backbone_type", "clip")
     args.backbone_name = resolve_backbone_name(
@@ -309,7 +310,7 @@ if __name__ == "__main__":
     parser.add_argument("--save_path", type=str, default=DEFAULT_SAVE_PATH, help="path to save unlabeled test results")
     parser.add_argument("--checkpoint_path", type=str, required=True, help="path to trained model checkpoint")
     parser.add_argument("--test_dataset", type=str, default="codex-test", help="name recorded in outputs")
-    parser.add_argument("--backbone_type", type=str, default=None, choices=["clip", "dinov3", "sam"])
+    parser.add_argument("--backbone_type", type=str, default=None, choices=["clip", "dinov2", "dinov3", "sam"])
     parser.add_argument("--backbone_name", type=str, default=None)
     parser.add_argument("--backbone", type=str, default="ViT-L/14@336px")
     parser.add_argument("--sam_checkpoint", type=str, default="")

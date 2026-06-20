@@ -28,6 +28,8 @@ def residual_model_dir_name(backbone_type: str, backbone_name: str) -> str:
         return "clip-vit-l"
     if backbone_type == "sam" and "vit_l" in name:
         return "sam-vit-l"
+    if backbone_type == "dinov2" and ("large" in name or "vitl" in name or "vit-l" in name):
+        return "dinov2-vit-l"
     if backbone_type == "dinov3" and ("vitl" in name or "vit-l" in name):
         return "dinov3-vit-l"
     return f"{safe_name(backbone_type)}-{safe_name(backbone_name)}"

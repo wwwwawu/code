@@ -1,0 +1,3093 @@
+{
+    "test": {
+        "road": [
+            {
+                "img_path": "images/image_1.jpg",
+                "mask_path": "mask/label_1.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_2.jpg",
+                "mask_path": "mask/label_2.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_3.jpg",
+                "mask_path": "mask/label_3.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_4.jpg",
+                "mask_path": "mask/label_4.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_5.jpg",
+                "mask_path": "mask/label_5.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_6.jpg",
+                "mask_path": "mask/label_6.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_7.jpg",
+                "mask_path": "mask/label_7.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_8.jpg",
+                "mask_path": "mask/label_8.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_9.jpg",
+                "mask_path": "mask/label_9.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_10.jpg",
+                "mask_path": "mask/label_10.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_11.jpg",
+                "mask_path": "mask/label_11.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_12.jpg",
+                "mask_path": "mask/label_12.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_13.jpg",
+                "mask_path": "mask/label_13.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_14.jpg",
+                "mask_path": "mask/label_14.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_15.jpg",
+                "mask_path": "mask/label_15.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_16.jpg",
+                "mask_path": "mask/label_16.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_17.jpg",
+                "mask_path": "mask/label_17.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_18.jpg",
+                "mask_path": "mask/label_18.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_19.jpg",
+                "mask_path": "mask/label_19.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_20.jpg",
+                "mask_path": "mask/label_20.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_21.jpg",
+                "mask_path": "mask/label_21.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_22.jpg",
+                "mask_path": "mask/label_22.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_23.jpg",
+                "mask_path": "mask/label_23.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_24.jpg",
+                "mask_path": "mask/label_24.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_25.jpg",
+                "mask_path": "mask/label_25.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_26.jpg",
+                "mask_path": "mask/label_26.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_27.jpg",
+                "mask_path": "mask/label_27.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_28.jpg",
+                "mask_path": "mask/label_28.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_29.jpg",
+                "mask_path": "mask/label_29.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_30.jpg",
+                "mask_path": "mask/label_30.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_31.jpg",
+                "mask_path": "mask/label_31.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_32.jpg",
+                "mask_path": "mask/label_32.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_33.jpg",
+                "mask_path": "mask/label_33.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_34.jpg",
+                "mask_path": "mask/label_34.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_35.jpg",
+                "mask_path": "mask/label_35.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_36.jpg",
+                "mask_path": "mask/label_36.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_37.jpg",
+                "mask_path": "mask/label_37.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_38.jpg",
+                "mask_path": "mask/label_38.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_39.jpg",
+                "mask_path": "mask/label_39.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_40.jpg",
+                "mask_path": "mask/label_40.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_41.jpg",
+                "mask_path": "mask/label_41.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_42.jpg",
+                "mask_path": "mask/label_42.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_43.jpg",
+                "mask_path": "mask/label_43.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_44.jpg",
+                "mask_path": "mask/label_44.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_45.jpg",
+                "mask_path": "mask/label_45.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_46.jpg",
+                "mask_path": "mask/label_46.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_47.jpg",
+                "mask_path": "mask/label_47.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_48.jpg",
+                "mask_path": "mask/label_48.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_49.jpg",
+                "mask_path": "mask/label_49.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_50.jpg",
+                "mask_path": "mask/label_50.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_51.jpg",
+                "mask_path": "mask/label_51.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_52.jpg",
+                "mask_path": "mask/label_52.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_53.jpg",
+                "mask_path": "mask/label_53.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_54.jpg",
+                "mask_path": "mask/label_54.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_55.jpg",
+                "mask_path": "mask/label_55.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_56.jpg",
+                "mask_path": "mask/label_56.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_57.jpg",
+                "mask_path": "mask/label_57.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_58.jpg",
+                "mask_path": "mask/label_58.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_59.jpg",
+                "mask_path": "mask/label_59.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_60.jpg",
+                "mask_path": "mask/label_60.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_61.jpg",
+                "mask_path": "mask/label_61.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_62.jpg",
+                "mask_path": "mask/label_62.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_63.jpg",
+                "mask_path": "mask/label_63.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_64.jpg",
+                "mask_path": "mask/label_64.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_65.jpg",
+                "mask_path": "mask/label_65.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_66.jpg",
+                "mask_path": "mask/label_66.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_67.jpg",
+                "mask_path": "mask/label_67.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_68.jpg",
+                "mask_path": "mask/label_68.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_69.jpg",
+                "mask_path": "mask/label_69.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_70.jpg",
+                "mask_path": "mask/label_70.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_71.jpg",
+                "mask_path": "mask/label_71.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_72.jpg",
+                "mask_path": "mask/label_72.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_73.jpg",
+                "mask_path": "mask/label_73.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_74.jpg",
+                "mask_path": "mask/label_74.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_75.jpg",
+                "mask_path": "mask/label_75.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_76.jpg",
+                "mask_path": "mask/label_76.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_77.jpg",
+                "mask_path": "mask/label_77.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_78.jpg",
+                "mask_path": "mask/label_78.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_79.jpg",
+                "mask_path": "mask/label_79.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_80.jpg",
+                "mask_path": "mask/label_80.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_81.jpg",
+                "mask_path": "mask/label_81.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_82.jpg",
+                "mask_path": "mask/label_82.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_83.jpg",
+                "mask_path": "mask/label_83.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_84.jpg",
+                "mask_path": "mask/label_84.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_85.jpg",
+                "mask_path": "mask/label_85.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_86.jpg",
+                "mask_path": "mask/label_86.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_87.jpg",
+                "mask_path": "mask/label_87.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_88.jpg",
+                "mask_path": "mask/label_88.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_89.jpg",
+                "mask_path": "mask/label_89.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_90.jpg",
+                "mask_path": "mask/label_90.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_91.jpg",
+                "mask_path": "mask/label_91.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_92.jpg",
+                "mask_path": "mask/label_92.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_93.jpg",
+                "mask_path": "mask/label_93.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_94.jpg",
+                "mask_path": "mask/label_94.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_95.jpg",
+                "mask_path": "mask/label_95.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_96.jpg",
+                "mask_path": "mask/label_96.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_97.jpg",
+                "mask_path": "mask/label_97.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_98.jpg",
+                "mask_path": "mask/label_98.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_99.jpg",
+                "mask_path": "mask/label_99.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_100.jpg",
+                "mask_path": "mask/label_100.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_101.jpg",
+                "mask_path": "mask/label_101.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_102.jpg",
+                "mask_path": "mask/label_102.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_103.jpg",
+                "mask_path": "mask/label_103.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_104.jpg",
+                "mask_path": "mask/label_104.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_105.jpg",
+                "mask_path": "mask/label_105.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_106.jpg",
+                "mask_path": "mask/label_106.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_107.jpg",
+                "mask_path": "mask/label_107.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_108.jpg",
+                "mask_path": "mask/label_108.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_109.jpg",
+                "mask_path": "mask/label_109.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_110.jpg",
+                "mask_path": "mask/label_110.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_111.jpg",
+                "mask_path": "mask/label_111.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_112.jpg",
+                "mask_path": "mask/label_112.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_113.jpg",
+                "mask_path": "mask/label_113.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_114.jpg",
+                "mask_path": "mask/label_114.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_115.jpg",
+                "mask_path": "mask/label_115.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_116.jpg",
+                "mask_path": "mask/label_116.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_117.jpg",
+                "mask_path": "mask/label_117.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_118.jpg",
+                "mask_path": "mask/label_118.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_119.jpg",
+                "mask_path": "mask/label_119.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_120.jpg",
+                "mask_path": "mask/label_120.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_121.jpg",
+                "mask_path": "mask/label_121.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_122.jpg",
+                "mask_path": "mask/label_122.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_123.jpg",
+                "mask_path": "mask/label_123.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_124.jpg",
+                "mask_path": "mask/label_124.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_125.jpg",
+                "mask_path": "mask/label_125.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_126.jpg",
+                "mask_path": "mask/label_126.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_127.jpg",
+                "mask_path": "mask/label_127.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_128.jpg",
+                "mask_path": "mask/label_128.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_129.jpg",
+                "mask_path": "mask/label_129.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_130.jpg",
+                "mask_path": "mask/label_130.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_131.jpg",
+                "mask_path": "mask/label_131.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_132.jpg",
+                "mask_path": "mask/label_132.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_133.jpg",
+                "mask_path": "mask/label_133.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_134.jpg",
+                "mask_path": "mask/label_134.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_135.jpg",
+                "mask_path": "mask/label_135.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_136.jpg",
+                "mask_path": "mask/label_136.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_137.jpg",
+                "mask_path": "mask/label_137.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_138.jpg",
+                "mask_path": "mask/label_138.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_139.jpg",
+                "mask_path": "mask/label_139.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_140.jpg",
+                "mask_path": "mask/label_140.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_141.jpg",
+                "mask_path": "mask/label_141.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_142.jpg",
+                "mask_path": "mask/label_142.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_143.jpg",
+                "mask_path": "mask/label_143.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_144.jpg",
+                "mask_path": "mask/label_144.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_145.jpg",
+                "mask_path": "mask/label_145.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_146.jpg",
+                "mask_path": "mask/label_146.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_147.jpg",
+                "mask_path": "mask/label_147.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_148.jpg",
+                "mask_path": "mask/label_148.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_149.jpg",
+                "mask_path": "mask/label_149.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_150.jpg",
+                "mask_path": "mask/label_150.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_151.jpg",
+                "mask_path": "mask/label_151.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_152.jpg",
+                "mask_path": "mask/label_152.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_153.jpg",
+                "mask_path": "mask/label_153.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_154.jpg",
+                "mask_path": "mask/label_154.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_155.jpg",
+                "mask_path": "mask/label_155.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_156.jpg",
+                "mask_path": "mask/label_156.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_157.jpg",
+                "mask_path": "mask/label_157.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_158.jpg",
+                "mask_path": "mask/label_158.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_159.jpg",
+                "mask_path": "mask/label_159.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_160.jpg",
+                "mask_path": "mask/label_160.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_161.jpg",
+                "mask_path": "mask/label_161.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_162.jpg",
+                "mask_path": "mask/label_162.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_163.jpg",
+                "mask_path": "mask/label_163.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_164.jpg",
+                "mask_path": "mask/label_164.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_165.jpg",
+                "mask_path": "mask/label_165.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_166.jpg",
+                "mask_path": "mask/label_166.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_167.jpg",
+                "mask_path": "mask/label_167.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_168.jpg",
+                "mask_path": "mask/label_168.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_169.jpg",
+                "mask_path": "mask/label_169.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_170.jpg",
+                "mask_path": "mask/label_170.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_171.jpg",
+                "mask_path": "mask/label_171.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_172.jpg",
+                "mask_path": "mask/label_172.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_173.jpg",
+                "mask_path": "mask/label_173.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_174.jpg",
+                "mask_path": "mask/label_174.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_175.jpg",
+                "mask_path": "mask/label_175.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_176.jpg",
+                "mask_path": "mask/label_176.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_177.jpg",
+                "mask_path": "mask/label_177.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_178.jpg",
+                "mask_path": "mask/label_178.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_179.jpg",
+                "mask_path": "mask/label_179.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_180.jpg",
+                "mask_path": "mask/label_180.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_181.jpg",
+                "mask_path": "mask/label_181.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_182.jpg",
+                "mask_path": "mask/label_182.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_183.jpg",
+                "mask_path": "mask/label_183.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_184.jpg",
+                "mask_path": "mask/label_184.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_185.jpg",
+                "mask_path": "mask/label_185.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_186.jpg",
+                "mask_path": "mask/label_186.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_187.jpg",
+                "mask_path": "mask/label_187.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_188.jpg",
+                "mask_path": "mask/label_188.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_189.jpg",
+                "mask_path": "mask/label_189.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_190.jpg",
+                "mask_path": "mask/label_190.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_191.jpg",
+                "mask_path": "mask/label_191.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_192.jpg",
+                "mask_path": "mask/label_192.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_193.jpg",
+                "mask_path": "mask/label_193.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_194.jpg",
+                "mask_path": "mask/label_194.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_195.jpg",
+                "mask_path": "mask/label_195.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_196.jpg",
+                "mask_path": "mask/label_196.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_197.jpg",
+                "mask_path": "mask/label_197.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_198.jpg",
+                "mask_path": "mask/label_198.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_199.jpg",
+                "mask_path": "mask/label_199.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_200.jpg",
+                "mask_path": "mask/label_200.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_201.jpg",
+                "mask_path": "mask/label_201.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_202.jpg",
+                "mask_path": "mask/label_202.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_203.jpg",
+                "mask_path": "mask/label_203.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_204.jpg",
+                "mask_path": "mask/label_204.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_205.jpg",
+                "mask_path": "mask/label_205.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_206.jpg",
+                "mask_path": "mask/label_206.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_207.jpg",
+                "mask_path": "mask/label_207.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_208.jpg",
+                "mask_path": "mask/label_208.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_209.jpg",
+                "mask_path": "mask/label_209.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_210.jpg",
+                "mask_path": "mask/label_210.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_211.jpg",
+                "mask_path": "mask/label_211.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_212.jpg",
+                "mask_path": "mask/label_212.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_213.jpg",
+                "mask_path": "mask/label_213.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_214.jpg",
+                "mask_path": "mask/label_214.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_215.jpg",
+                "mask_path": "mask/label_215.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_216.jpg",
+                "mask_path": "mask/label_216.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_217.jpg",
+                "mask_path": "mask/label_217.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_218.jpg",
+                "mask_path": "mask/label_218.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_219.jpg",
+                "mask_path": "mask/label_219.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_220.jpg",
+                "mask_path": "mask/label_220.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_221.jpg",
+                "mask_path": "mask/label_221.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_222.jpg",
+                "mask_path": "mask/label_222.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_223.jpg",
+                "mask_path": "mask/label_223.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_224.jpg",
+                "mask_path": "mask/label_224.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_225.jpg",
+                "mask_path": "mask/label_225.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_226.jpg",
+                "mask_path": "mask/label_226.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_227.jpg",
+                "mask_path": "mask/label_227.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_228.jpg",
+                "mask_path": "mask/label_228.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_229.jpg",
+                "mask_path": "mask/label_229.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_230.jpg",
+                "mask_path": "mask/label_230.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_231.jpg",
+                "mask_path": "mask/label_231.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_232.jpg",
+                "mask_path": "mask/label_232.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_233.jpg",
+                "mask_path": "mask/label_233.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_234.jpg",
+                "mask_path": "mask/label_234.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_235.jpg",
+                "mask_path": "mask/label_235.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_236.jpg",
+                "mask_path": "mask/label_236.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_237.jpg",
+                "mask_path": "mask/label_237.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_238.jpg",
+                "mask_path": "mask/label_238.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_239.jpg",
+                "mask_path": "mask/label_239.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_240.jpg",
+                "mask_path": "mask/label_240.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_241.jpg",
+                "mask_path": "mask/label_241.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_242.jpg",
+                "mask_path": "mask/label_242.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_243.jpg",
+                "mask_path": "mask/label_243.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_244.jpg",
+                "mask_path": "mask/label_244.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_245.jpg",
+                "mask_path": "mask/label_245.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_246.jpg",
+                "mask_path": "mask/label_246.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_247.jpg",
+                "mask_path": "mask/label_247.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_248.jpg",
+                "mask_path": "mask/label_248.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_249.jpg",
+                "mask_path": "mask/label_249.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_250.jpg",
+                "mask_path": "mask/label_250.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_251.jpg",
+                "mask_path": "mask/label_251.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_252.jpg",
+                "mask_path": "mask/label_252.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_253.jpg",
+                "mask_path": "mask/label_253.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_254.jpg",
+                "mask_path": "mask/label_254.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_255.jpg",
+                "mask_path": "mask/label_255.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_256.jpg",
+                "mask_path": "mask/label_256.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_257.jpg",
+                "mask_path": "mask/label_257.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_258.jpg",
+                "mask_path": "mask/label_258.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_259.jpg",
+                "mask_path": "mask/label_259.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_260.jpg",
+                "mask_path": "mask/label_260.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_261.jpg",
+                "mask_path": "mask/label_261.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_262.jpg",
+                "mask_path": "mask/label_262.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_263.jpg",
+                "mask_path": "mask/label_263.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_264.jpg",
+                "mask_path": "mask/label_264.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_265.jpg",
+                "mask_path": "mask/label_265.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_266.jpg",
+                "mask_path": "mask/label_266.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_267.jpg",
+                "mask_path": "mask/label_267.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_268.jpg",
+                "mask_path": "mask/label_268.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_269.jpg",
+                "mask_path": "mask/label_269.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_270.jpg",
+                "mask_path": "mask/label_270.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_271.jpg",
+                "mask_path": "mask/label_271.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_272.jpg",
+                "mask_path": "mask/label_272.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_273.jpg",
+                "mask_path": "mask/label_273.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_274.jpg",
+                "mask_path": "mask/label_274.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_275.jpg",
+                "mask_path": "mask/label_275.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_276.jpg",
+                "mask_path": "mask/label_276.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_277.jpg",
+                "mask_path": "mask/label_277.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_278.jpg",
+                "mask_path": "mask/label_278.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_279.jpg",
+                "mask_path": "mask/label_279.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_280.jpg",
+                "mask_path": "mask/label_280.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_281.jpg",
+                "mask_path": "mask/label_281.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_282.jpg",
+                "mask_path": "mask/label_282.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_283.jpg",
+                "mask_path": "mask/label_283.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_284.jpg",
+                "mask_path": "mask/label_284.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_285.jpg",
+                "mask_path": "mask/label_285.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_286.jpg",
+                "mask_path": "mask/label_286.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_287.jpg",
+                "mask_path": "mask/label_287.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_288.jpg",
+                "mask_path": "mask/label_288.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_289.jpg",
+                "mask_path": "mask/label_289.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_290.jpg",
+                "mask_path": "mask/label_290.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_291.jpg",
+                "mask_path": "mask/label_291.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_292.jpg",
+                "mask_path": "mask/label_292.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_293.jpg",
+                "mask_path": "mask/label_293.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_294.jpg",
+                "mask_path": "mask/label_294.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_295.jpg",
+                "mask_path": "mask/label_295.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_296.jpg",
+                "mask_path": "mask/label_296.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_297.jpg",
+                "mask_path": "mask/label_297.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_298.jpg",
+                "mask_path": "mask/label_298.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_299.jpg",
+                "mask_path": "mask/label_299.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_300.jpg",
+                "mask_path": "mask/label_300.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_301.jpg",
+                "mask_path": "mask/label_301.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_302.jpg",
+                "mask_path": "mask/label_302.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_303.jpg",
+                "mask_path": "mask/label_303.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_304.jpg",
+                "mask_path": "mask/label_304.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_305.jpg",
+                "mask_path": "mask/label_305.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_306.jpg",
+                "mask_path": "mask/label_306.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_307.jpg",
+                "mask_path": "mask/label_307.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_308.jpg",
+                "mask_path": "mask/label_308.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_309.jpg",
+                "mask_path": "mask/label_309.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_310.jpg",
+                "mask_path": "mask/label_310.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_311.jpg",
+                "mask_path": "mask/label_311.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_312.jpg",
+                "mask_path": "mask/label_312.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_313.jpg",
+                "mask_path": "mask/label_313.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_314.jpg",
+                "mask_path": "mask/label_314.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_315.jpg",
+                "mask_path": "mask/label_315.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_316.jpg",
+                "mask_path": "mask/label_316.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_317.jpg",
+                "mask_path": "mask/label_317.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_318.jpg",
+                "mask_path": "mask/label_318.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_319.jpg",
+                "mask_path": "mask/label_319.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_320.jpg",
+                "mask_path": "mask/label_320.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_321.jpg",
+                "mask_path": "mask/label_321.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_322.jpg",
+                "mask_path": "mask/label_322.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_323.jpg",
+                "mask_path": "mask/label_323.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_324.jpg",
+                "mask_path": "mask/label_324.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_325.jpg",
+                "mask_path": "mask/label_325.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_326.jpg",
+                "mask_path": "mask/label_326.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_327.jpg",
+                "mask_path": "mask/label_327.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_328.jpg",
+                "mask_path": "mask/label_328.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_329.jpg",
+                "mask_path": "mask/label_329.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_330.jpg",
+                "mask_path": "mask/label_330.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_331.jpg",
+                "mask_path": "mask/label_331.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_332.jpg",
+                "mask_path": "mask/label_332.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_333.jpg",
+                "mask_path": "mask/label_333.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_334.jpg",
+                "mask_path": "mask/label_334.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_335.jpg",
+                "mask_path": "mask/label_335.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_336.jpg",
+                "mask_path": "mask/label_336.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_337.jpg",
+                "mask_path": "mask/label_337.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_338.jpg",
+                "mask_path": "mask/label_338.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_339.jpg",
+                "mask_path": "mask/label_339.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_340.jpg",
+                "mask_path": "mask/label_340.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_341.jpg",
+                "mask_path": "mask/label_341.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_342.jpg",
+                "mask_path": "mask/label_342.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_343.jpg",
+                "mask_path": "mask/label_343.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_344.jpg",
+                "mask_path": "mask/label_344.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_345.jpg",
+                "mask_path": "mask/label_345.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_346.jpg",
+                "mask_path": "mask/label_346.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_347.jpg",
+                "mask_path": "mask/label_347.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_348.jpg",
+                "mask_path": "mask/label_348.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_349.jpg",
+                "mask_path": "mask/label_349.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_350.jpg",
+                "mask_path": "mask/label_350.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_351.jpg",
+                "mask_path": "mask/label_351.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_352.jpg",
+                "mask_path": "mask/label_352.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_353.jpg",
+                "mask_path": "mask/label_353.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_354.jpg",
+                "mask_path": "mask/label_354.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_355.jpg",
+                "mask_path": "mask/label_355.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_356.jpg",
+                "mask_path": "mask/label_356.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_357.jpg",
+                "mask_path": "mask/label_357.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_358.jpg",
+                "mask_path": "mask/label_358.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_359.jpg",
+                "mask_path": "mask/label_359.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_360.jpg",
+                "mask_path": "mask/label_360.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_361.jpg",
+                "mask_path": "mask/label_361.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_362.jpg",
+                "mask_path": "mask/label_362.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_363.jpg",
+                "mask_path": "mask/label_363.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_364.jpg",
+                "mask_path": "mask/label_364.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_365.jpg",
+                "mask_path": "mask/label_365.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_366.jpg",
+                "mask_path": "mask/label_366.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_367.jpg",
+                "mask_path": "mask/label_367.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_368.jpg",
+                "mask_path": "mask/label_368.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_369.jpg",
+                "mask_path": "mask/label_369.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_370.jpg",
+                "mask_path": "mask/label_370.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_371.jpg",
+                "mask_path": "mask/label_371.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_372.jpg",
+                "mask_path": "mask/label_372.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_373.jpg",
+                "mask_path": "mask/label_373.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_374.jpg",
+                "mask_path": "mask/label_374.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_375.jpg",
+                "mask_path": "mask/label_375.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_376.jpg",
+                "mask_path": "mask/label_376.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_377.jpg",
+                "mask_path": "mask/label_377.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_378.jpg",
+                "mask_path": "mask/label_378.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_379.jpg",
+                "mask_path": "mask/label_379.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_380.jpg",
+                "mask_path": "mask/label_380.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_381.jpg",
+                "mask_path": "mask/label_381.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_382.jpg",
+                "mask_path": "mask/label_382.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_383.jpg",
+                "mask_path": "mask/label_383.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_384.jpg",
+                "mask_path": "mask/label_384.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_385.jpg",
+                "mask_path": "mask/label_385.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_386.jpg",
+                "mask_path": "mask/label_386.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_387.jpg",
+                "mask_path": "mask/label_387.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_388.jpg",
+                "mask_path": "mask/label_388.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_389.jpg",
+                "mask_path": "mask/label_389.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_390.jpg",
+                "mask_path": "mask/label_390.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_391.jpg",
+                "mask_path": "mask/label_391.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_392.jpg",
+                "mask_path": "mask/label_392.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_393.jpg",
+                "mask_path": "mask/label_393.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_394.jpg",
+                "mask_path": "mask/label_394.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_395.jpg",
+                "mask_path": "mask/label_395.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_396.jpg",
+                "mask_path": "mask/label_396.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_397.jpg",
+                "mask_path": "mask/label_397.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_398.jpg",
+                "mask_path": "mask/label_398.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_399.jpg",
+                "mask_path": "mask/label_399.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_400.jpg",
+                "mask_path": "mask/label_400.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_401.jpg",
+                "mask_path": "mask/label_401.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_402.jpg",
+                "mask_path": "mask/label_402.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_403.jpg",
+                "mask_path": "mask/label_403.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_404.jpg",
+                "mask_path": "mask/label_404.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_405.jpg",
+                "mask_path": "mask/label_405.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_406.jpg",
+                "mask_path": "mask/label_406.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_407.jpg",
+                "mask_path": "mask/label_407.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_408.jpg",
+                "mask_path": "mask/label_408.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_409.jpg",
+                "mask_path": "mask/label_409.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_410.jpg",
+                "mask_path": "mask/label_410.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_411.jpg",
+                "mask_path": "mask/label_411.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_412.jpg",
+                "mask_path": "mask/label_412.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_413.jpg",
+                "mask_path": "mask/label_413.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_414.jpg",
+                "mask_path": "mask/label_414.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_415.jpg",
+                "mask_path": "mask/label_415.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_416.jpg",
+                "mask_path": "mask/label_416.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_417.jpg",
+                "mask_path": "mask/label_417.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_418.jpg",
+                "mask_path": "mask/label_418.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_419.jpg",
+                "mask_path": "mask/label_419.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_420.jpg",
+                "mask_path": "mask/label_420.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_421.jpg",
+                "mask_path": "mask/label_421.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_422.jpg",
+                "mask_path": "mask/label_422.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_423.jpg",
+                "mask_path": "mask/label_423.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_424.jpg",
+                "mask_path": "mask/label_424.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_425.jpg",
+                "mask_path": "mask/label_425.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_426.jpg",
+                "mask_path": "mask/label_426.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_427.jpg",
+                "mask_path": "mask/label_427.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_428.jpg",
+                "mask_path": "mask/label_428.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_429.jpg",
+                "mask_path": "mask/label_429.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_430.jpg",
+                "mask_path": "mask/label_430.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_431.jpg",
+                "mask_path": "mask/label_431.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_432.jpg",
+                "mask_path": "mask/label_432.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_433.jpg",
+                "mask_path": "mask/label_433.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_434.jpg",
+                "mask_path": "mask/label_434.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_435.jpg",
+                "mask_path": "mask/label_435.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_436.jpg",
+                "mask_path": "mask/label_436.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_437.jpg",
+                "mask_path": "mask/label_437.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_438.jpg",
+                "mask_path": "mask/label_438.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_439.jpg",
+                "mask_path": "mask/label_439.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_440.jpg",
+                "mask_path": "mask/label_440.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            },
+            {
+                "img_path": "images/image_441.jpg",
+                "mask_path": "mask/label_441.png",
+                "cls_name": "road",
+                "specie_name": "flooding",
+                "anomaly": 1
+            }
+        ]
+    }
+}

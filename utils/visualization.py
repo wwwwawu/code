@@ -253,7 +253,7 @@ def visualize_anomaly_results(original_images, anomaly_maps, gt_masks,
 
 
 def visualize_unlabeled_prediction(original_image, prediction_map, score, img_path, save_path, eval_threshold=0.5):
-    """Save a 3-panel unlabeled prediction: original, predicted mask, predicted overlay."""
+    """Save unlabeled prediction images: predicted mask plus original/overlay/mask comparison."""
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
     img = original_image.squeeze().cpu().numpy()
@@ -277,17 +277,24 @@ def visualize_unlabeled_prediction(original_image, prediction_map, score, img_pa
         blended = img_uint8[mask_bool].astype(np.float32) * (1.0 - alpha) + water_color * alpha
         pre_mask_overlay[mask_bool] = np.clip(blended, 0, 255).astype(np.uint8)
 
+    base_path, _ = os.path.splitext(save_path)
+    fig_mask = plt.figure(figsize=(4, 4))
+    plt.imshow(pre_mask_visual, cmap="gray", vmin=0, vmax=255)
+    plt.axis("off")
+    plt.savefig(f"{base_path}_pre_mask.png", dpi=150, bbox_inches="tight", pad_inches=0)
+    plt.close(fig_mask)
+
     fig, axes = plt.subplots(1, 3, figsize=(12, 4))
     axes[0].imshow(img)
     axes[0].set_title("Original")
     axes[0].axis("off")
 
-    axes[1].imshow(pre_mask_visual, cmap="gray", vmin=0, vmax=255)
-    axes[1].set_title(f"Pred Mask (thr={eval_threshold:.2f})")
+    axes[1].imshow(pre_mask_overlay)
+    axes[1].set_title(f"Overlay (score={score:.3f})")
     axes[1].axis("off")
 
-    axes[2].imshow(pre_mask_overlay)
-    axes[2].set_title(f"Overlay (score={score:.3f})")
+    axes[2].imshow(pre_mask_visual, cmap="gray", vmin=0, vmax=255)
+    axes[2].set_title(f"Pred Mask (thr={eval_threshold:.2f})")
     axes[2].axis("off")
 
     plt.suptitle(os.path.basename(img_path), fontsize=10)

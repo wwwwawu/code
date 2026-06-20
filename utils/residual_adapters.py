@@ -123,6 +123,21 @@ def configure_residual_adapters(model, args, backbone_spec, device, logger=None)
     if backbone_type == "clip":
         attach_clip_residual_adapters(model, layer_ids, adapter_ratio, bottleneck_ratio, dropout, adapter_type, device)
         args.residual_adapter_mode = "internal_block"
+    elif backbone_type == "dinov3" and hasattr(model, "configure_residual_adapters"):
+        model.configure_residual_adapters(
+            layer_ids=layer_ids,
+            adapter_ratio=adapter_ratio,
+            bottleneck_ratio=bottleneck_ratio,
+            dropout=dropout,
+            adapter_type=adapter_type,
+            device=device,
+        )
+        args.residual_adapter_mode = getattr(model.adapter, "residual_adapter_mode", None)
+        if logger is not None and args.residual_adapter_mode == "patch_output":
+            logger.warning(
+                "DINOv3 transformer blocks were not found; residual adapters are applied to "
+                "selected patch-token outputs as a fallback."
+            )
     elif hasattr(model, "adapter") and hasattr(model.adapter, "configure_residual_adapters"):
         model.adapter.configure_residual_adapters(
             layer_ids=layer_ids,
@@ -134,11 +149,6 @@ def configure_residual_adapters(model, args, backbone_spec, device, logger=None)
         )
         mode = getattr(model.adapter, "residual_adapter_mode", None)
         args.residual_adapter_mode = mode
-        if logger is not None and backbone_type == "dinov3" and mode == "patch_output":
-            logger.warning(
-                "DINOv3 transformer blocks were not found; residual adapters are applied to "
-                "selected patch-token outputs as a fallback."
-            )
     else:
         raise ValueError(f"Residual adapters are not supported for backbone {getattr(args, 'backbone_type', 'unknown')}")
 
@@ -180,3 +190,4 @@ def load_residual_adapter_state(model, state_dict, logger=None) -> None:
             logger.warning(f"Missing residual adapter keys when loading checkpoint: {adapter_missing}")
         if unexpected:
             logger.warning(f"Unexpected residual adapter checkpoint keys: {unexpected}")
+

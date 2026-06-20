@@ -129,13 +129,20 @@ def compute_metrics(
     metrics_mode="all",
     sample_threshold=0.0,
     fast_metrics_stride=1,
+    metrics_decimals=1,
 ):
+    metrics_decimals = max(0, int(metrics_decimals))
+
+    def fmt_percent(value):
+        return f"{value * 100:.{metrics_decimals}f}"
+
     table_ls = []
     summary = {
         "metrics_mode": metrics_mode,
         "eval_threshold": float(eval_threshold),
         "sample_threshold": float(sample_threshold),
         "fast_metrics_stride": int(fast_metrics_stride),
+        "metrics_decimals": metrics_decimals,
         "per_class": {},
         "mean": {},
     }
@@ -168,6 +175,7 @@ def compute_metrics(
         iou = _safe_divide(tp, tp + fp + fn)
         bg_iou = _safe_divide(tn, tn + fp + fn)
         miou = (iou + bg_iou) / 2.0
+        pixel_accuracy = _safe_divide(tp + tn, tp + fp + fn + tn)
         gt_px_rank, pr_px_rank = _subsample_pair(gt_px, pr_px, fast_metrics_stride)
         pixel_ap = average_precision_score(gt_px_rank, pr_px_rank) if gt_px_rank.size else 0.0
 
@@ -184,6 +192,7 @@ def compute_metrics(
             "f1": float(f1),
             "iou": float(iou),
             "miou": float(miou),
+            "pixel_accuracy": float(pixel_accuracy),
             "ap": float(pixel_ap),
             "accuracy": float(image_accuracy),
             # Backward-compatible aliases
@@ -192,18 +201,20 @@ def compute_metrics(
             "pixel_f1_at_0_5": float(f1),
             "pixel_iou_at_0_5": float(iou),
             "pixel_miou_at_0_5": float(miou),
+            "pixel_accuracy_at_0_5": float(pixel_accuracy),
             "sample_accuracy": float(image_accuracy),
         }
 
         table = [
             obj,
-            f"{precision * 100:.1f}",
-            f"{recall * 100:.1f}",
-            f"{f1 * 100:.1f}",
-            f"{iou * 100:.1f}",
-            f"{miou * 100:.1f}",
-            f"{pixel_ap * 100:.1f}",
-            f"{image_accuracy * 100:.1f}",
+            fmt_percent(precision),
+            fmt_percent(recall),
+            fmt_percent(f1),
+            fmt_percent(iou),
+            fmt_percent(miou),
+            fmt_percent(pixel_accuracy),
+            fmt_percent(pixel_ap),
+            fmt_percent(image_accuracy),
         ]
 
         if metrics_mode == "all":
@@ -233,12 +244,12 @@ def compute_metrics(
                 "sample_ap": float(image_ap),
             })
             table.extend([
-                f"{pixel_auroc * 100:.1f}",
-                f"{pixel_ap * 100:.1f}",
-                f"{pixel_f1 * 100:.1f}",
-                f"{image_auroc * 100:.1f}",
-                f"{image_ap * 100:.1f}",
-                f"{image_f1 * 100:.1f}",
+                fmt_percent(pixel_auroc),
+                fmt_percent(pixel_ap),
+                fmt_percent(pixel_f1),
+                fmt_percent(image_auroc),
+                fmt_percent(image_ap),
+                fmt_percent(image_f1),
             ])
 
         summary["per_class"][obj] = class_metrics
@@ -256,7 +267,7 @@ def compute_metrics(
 
     # Calculate mean for each column
     mean_values = np.array(numeric_data).mean(axis=0)
-    mean_values = [f"{v:.1f}" for v in mean_values]
+    mean_values = [f"{v:.{metrics_decimals}f}" for v in mean_values]
 
     # Add mean row
     mean_row = ['Mean'] + mean_values
@@ -267,7 +278,7 @@ def compute_metrics(
         summary["mean"][key] = float(np.mean(values)) if values else 0.0
 
     # === Generate table ===
-    headers = ['Class', 'Precision', 'Recall', 'F1', 'IoU', 'mIoU', 'AP', 'Accuracy']
+    headers = ['Class', 'Precision', 'Recall', 'F1', 'IoU', 'mIoU', 'Pixel-Acc', 'AP', 'Image-Acc']
     if metrics_mode == "all":
         headers.extend([
             'Pixel-AUROC', 'Pixel-AP', 'Pixel-F1',

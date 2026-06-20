@@ -40,7 +40,7 @@ def get_transform(args):
     stretch_to_square = getattr(args, "stretch_to_square", False)
     backbone_type = getattr(args, "backbone_type", "clip")
 
-    if backbone_type == "dinov3":
+    if backbone_type in {"dinov2", "dinov3"}:
         mean, std = IMAGENET_MEAN, IMAGENET_STD
     elif backbone_type == "sam":
         mean, std = None, None

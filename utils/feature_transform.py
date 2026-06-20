@@ -153,6 +153,47 @@ class ResidualAdapterTransform(nn.Module):
         return residual + self.res_scale * adapter
 
 
+class AAClipResidualAdapterTransform(nn.Module):
+    """AA-CLIP style adapter: linear feature redirection with residual feature mixing."""
+
+    def __init__(
+        self,
+        input_dim,
+        hidden_dim=None,
+        output_dim=None,
+        dropout=0.0,
+        init_scale=0.1,
+        negative_slope=0.01,
+        eps=1e-6,
+    ):
+        super().__init__()
+        if output_dim is None:
+            output_dim = input_dim
+        if output_dim != input_dim:
+            raise ValueError("AAClipResidualAdapterTransform requires output_dim to match input_dim")
+
+        self.adapter = nn.Sequential(
+            nn.Linear(input_dim, input_dim, bias=False),
+            nn.LeakyReLU(negative_slope=negative_slope),
+            nn.Dropout(dropout) if dropout > 0 else nn.Identity(),
+        )
+        self.adapt_weight = float(init_scale)
+        self.eps = float(eps)
+        self._init_weights()
+
+    def _init_weights(self):
+        for module in self.modules():
+            if isinstance(module, nn.Linear):
+                nn.init.xavier_uniform_(module.weight)
+
+    def forward(self, x):
+        adapted = self.adapter(x)
+        adapted_norm = adapted.norm(dim=-1, keepdim=True).clamp_min(self.eps)
+        residual_norm = x.norm(dim=-1, keepdim=True).clamp_min(self.eps)
+        adapted = adapted * residual_norm / adapted_norm
+        return self.adapt_weight * adapted + (1.0 - self.adapt_weight) * x
+
+
 class ConvResidualAdapterTransform(nn.Module):
     """Residual adapter with an MLP branch and a lightweight spatial convolution branch."""
 
@@ -377,7 +418,15 @@ def create_residual_adapter(
             patch_start_idx=patch_start_idx,
             sequence_first=sequence_first,
         )
-    raise ValueError(f"Unsupported adapter_type: {adapter_type}. Use 'mlp' or 'conv'")
+    if adapter_type == "aaclip":
+        return AAClipResidualAdapterTransform(
+            input_dim=input_dim,
+            hidden_dim=hidden_dim,
+            output_dim=output_dim,
+            dropout=dropout,
+            init_scale=init_scale,
+        )
+    raise ValueError(f"Unsupported adapter_type: {adapter_type}. Use 'mlp', 'conv', or 'aaclip'")
 
 
 # For backward compatibility, keep original class names
